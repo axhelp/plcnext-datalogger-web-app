@@ -197,7 +197,7 @@
     <InstVal xPath="//Layer7[@uID='L7_5']/ParaList/Para[@uID='opcuaDiscoveryRegistrationEnabled']/Current" Type="Ade.Fdcml.Core.Boolean">False</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_5']/ParaList/Para[@uID='opcuaDiscoveryRegistrationIntervalSeconds']/Current" Type="Ade.Fdcml.Core.Unsigned32">20</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_5']/ParaList/Para[@uID='opcuaDiscoveryRegistrationUrl']/Current" Type="Ade.Fdcml.Core.String">[UTF-8;]</InstVal>
-    <InstVal xPath="//Layer7[@uID='L7_5']/ParaList/Para[@uID='opcuaGdsPortsToProvideType']/Current" Type="Ade.Fdcml.Core.StringAscii">OpcUAConfigurationDocument.GdsPortsToProvide.None</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_5']/ParaList/Para[@uID='opcuaGdsPortsToProvideType']/Current" Type="Ade.Fdcml.Core.StringAscii">OpcUAConfigurationDocument.GdsPortsToProvide.Flagged</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_5']/ParaList/Para[@uID='opcuaFiletransferEnabled']/Current" Type="Ade.Fdcml.Core.Boolean">False</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_5']/ParaList/Para[@uID='opcuaFiletransferpcweFolder']/Current" Type="Ade.Fdcml.Core.Boolean">False</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_5']/ParaList/Para[@uID='opcuaFiletransferlogFileFolder']/Current" Type="Ade.Fdcml.Core.Boolean">False</InstVal>
