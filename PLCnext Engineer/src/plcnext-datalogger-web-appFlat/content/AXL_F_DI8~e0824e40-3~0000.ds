@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DevInstDoc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///D:/Projekte/PC_Worx_Next/XML/Schemas/DevInst.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <DevInst uuid="e0824e40-3937-4640-a92f-0b026b52a637">
+    <TInfo uri="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/d83e72bc-eb53-4047-b779-a70756c8a100/e239c1fb-9529-4083-b973-b071fa8be025" />
+    <InstVal xPath="/InstanceObjList/Obj[@uID='base00' type='Generic:Function']" Type="Ade.Fdcml.Core.StringAscii"></InstVal>
+    <InstVal xPath="/InstanceObjList/Obj[@uID='base01' type='Generic:Location']" Type="Ade.Fdcml.Core.StringAscii"></InstVal>
+    <InstVal xPath="/InstanceObjList/Obj[@uID='base02' type='AmlApcStationName']" Type="Ade.Fdcml.Core.String">[UTF-8;]</InstVal>
+    <InstVal xPath="Generic:Uri" Type="System.String">adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/e3556381-f2f4-400e-9753-39d79d16bdce</InstVal>
+    <InstVal xPath="Generic:FormattedTypeNameWithoutVersion" Type="System.String">AXL F DI8/1 DO8/1 1H</InstVal>
+    <InstVal xPath="Generic:FormattedTypeName" Type="System.String">AXL F DI8/1 DO8/1 1H</InstVal>
+    <InstVal xPath="AutomationML:DeviceItemId" Type="System.String">83e78a77-26f3-4395-a092-4d2a560cdc36</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/InstanceObjList/Obj[@uID='axldd00' type='AXLF:ConsecutiveNumber']" Type="Ade.Fdcml.Core.Signed32">1</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/ParaList/Para[@uID='bp14']/Current" Type="Ade.Fdcml.Core.StringAscii"></InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/ParaList/Para[@uID='bp15']/Current" Type="Ade.Fdcml.Core.StringAscii"></InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/ParaList/Para[@uID='pFF8D']/Current" Type="Ade.Fdcml.Core.Unsigned8">0</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/ParaList/Para[@uID='pFF8F']/Current" Type="Ade.Fdcml.Core.Unsigned8">0</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/PDList/PD[@uid=iodpdin]" Type="System.String">~DI8</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/PDList/PD[@uid=iodpdout]" Type="System.String">~DO8</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/PDList/PD[@uid=io0]" Type="System.String">IN00</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/PDList/PD[@uid=io1]" Type="System.String">IN01</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/PDList/PD[@uid=io2]" Type="System.String">IN02</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/PDList/PD[@uid=io3]" Type="System.String">IN03</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/PDList/PD[@uid=io4]" Type="System.String">IN04</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/PDList/PD[@uid=io5]" Type="System.String">IN05</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/PDList/PD[@uid=io6]" Type="System.String">IN06</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/PDList/PD[@uid=io7]" Type="System.String">IN07</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/PDList/PD[@uid=io8]" Type="System.String">OUT00</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/PDList/PD[@uid=io9]" Type="System.String">OUT01</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/PDList/PD[@uid=io10]" Type="System.String">OUT02</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/PDList/PD[@uid=io11]" Type="System.String">OUT03</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/PDList/PD[@uid=io12]" Type="System.String">OUT04</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/PDList/PD[@uid=io13]" Type="System.String">OUT05</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/PDList/PD[@uid=io14]" Type="System.String">OUT06</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/PDList/PD[@uid=io15]" Type="System.String">OUT07</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/NodeId" Type="Ade.Fdcml.Core.Unsigned32">0</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/PN:InputFrameID" Type="Ade.Fdcml.Core.Unsigned16">0</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/PN:OutputFrameID" Type="Ade.Fdcml.Core.Unsigned16">1</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/Generic:FormattedTypeNameWithoutVersion" Type="System.String"></InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/Generic:FormattedTypeName" Type="System.String"></InstVal>
+  </DevInst>
+</DevInstDoc>

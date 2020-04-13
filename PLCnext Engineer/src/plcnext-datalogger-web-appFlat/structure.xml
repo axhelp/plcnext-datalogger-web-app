@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<content>
+  <file_system name="Safety" id="Safety~0000" />
+  <file name="StorageProperties.xml" id="StorageProperties~0000.xml" />
+  <file name="StorageContent.xml" id="StorageContent~0000.xml" />
+  <folder name="PROJECT">
+    <file name="PROJECT.proj" id="PROJECT~PROJECT~0000.proj" />
+    <folder name="Hardware">
+      <file name="950d54e3-e87f-4f59-8e36-760d6cb9bdc3.DataLink" id="Hardware~950d54e3-e8~0000.DataLink" />
+      <file name="950d54e3-e87f-4f59-8e36-760d6cb9bdc3.Transport" id="Hardware~950d54e3-e8~0001.Transport" />
+      <file name="Description.html" id="Hardware~Description~0000.html" />
+      <file name="VersionHistory.usermeta" id="Hardware~VersionHist~0000.usermeta" />
+      <folder name="CFG_09451DF45B184474B1BDC5F625D4C2B7">
+        <file name="b84580d7-61ea-48ec-9861-abe43adbd376.ds" id="CFG_09451~b84580d7-6~0000.ds" />
+        <file name="DataList.dl" id="CFG_09451DF~DataList~0000.dl" />
+        <file name="PlmConfiguration.plmc" id="CFG_09451~PlmConfigu~0000.plmc" />
+        <folder name="AXLF_Master">
+          <file name="Arp.Io.Axl.ControllerComponent.compmeta" id="AXLF_Mast~Arp.Io.Axl~0000.compmeta" />
+          <file name="Arp.Io.Axl.libmeta" id="AXLF_Mast~Arp.Io.Axl~0001.libmeta" />
+          <folder name="AXL_F_DI8_1_DO8_1_1H">
+            <file name="e0824e40-3937-4640-a92f-0b026b52a637.ds" id="AXL_F_DI8~e0824e40-3~0000.ds" />
+          </folder>
+          <folder name="AXL_F_AI2_AO2_1H">
+            <file name="a62274c5-682f-4173-96c3-b365764f145e.ds" id="AXL_F_AI2~a62274c5-6~0000.ds" />
+          </folder>
+        </folder>
+        <folder name="EIP_Master">
+          <file name="Arp.Io.EthernetIP.libmeta" id="EIP_Maste~Arp.Io.Eth~0000.libmeta" />
+          <file name="ControllerComponent.compmeta" id="EIP_Maste~Controller~0000.compmeta" />
+        </folder>
+        <folder name="HMI_Server">
+          <file name="DataList.dlr4hmi" id="HMI_Server~DataList~0000.dlr4hmi" />
+          <folder name="Application">
+            <file name="Navigation.hminav" id="Applicati~Navigation~0000.hminav" />
+            <file name="Profiles.hmiprofiles" id="Application~Profiles~0000.hmiprofiles" />
+            <file name="Variables.hmivar" id="Applicatio~Variables~0000.hmivar" />
+          </folder>
+        </folder>
+        <folder name="IB_Master">
+          <file name="Arp.Io.Ib.ControllerComponent.compmeta" id="IB_Master~Arp.Io.Ib.~0000.compmeta" />
+          <file name="Arp.Io.Ib.libmeta" id="IB_Master~Arp.Io.Ib~0000.libmeta" />
+        </folder>
+        <folder name="PLCnext">
+          <file name="EsmConfiguration.esmc" id="PLCnext~EsmConfigura~0000.esmc" />
+        </folder>
+        <folder name="PN_Master">
+          <file name="Arp.Io.Pn.libmeta" id="PN_Master~Arp.Io.Pn~0000.libmeta" />
+          <file name="ControllerComponent.compmeta" id="PN_Master~Controller~0000.compmeta" />
+        </folder>
+        <folder name="RES_829976591E98446682C292813E058D7E">
+          <file name="Arp.Plc.Eclr.libmeta" id="RES_82997~Arp.Plc.Ec~0000.libmeta" />
+          <file name="DataList.dlr4var" id="RES_8299765~DataList~0000.dlr4var" />
+          <file name="EclrComponent.compmeta" id="RES_82997~EclrCompon~0000.compmeta" />
+          <file name="GlobalVariables.var" id="RES_82997~GlobalVari~0000.var" />
+          <file name="IOConfiguration.ioc" id="RES_82997~IOConfigur~0000.ioc" />
+          <file name="ResourceSettings.set" id="RES_82997~ResourceSe~0000.set" />
+        </folder>
+      </folder>
+    </folder>
+    <folder name="Logical Elements">
+      <file name="CRC32.crc" id="Logical Elemen~CRC32~0000.crc" />
+      <file name="GeneratedDataTypes.dt" id="Logical E~GeneratedD~0000.dt" />
+      <folder name="Main.pou">
+        <file name="Description.html" id="Main.pou~Description~0000.html" />
+        <file name="Metadata.meta" id="Main.pou~Metadata~0000.meta" />
+        <file name="Variables.var" id="Main.pou~Variables~0000.var" />
+        <file name="VersionHistory.usermeta" id="Main.pou~VersionHist~0000.usermeta" />
+        <file name="Code.st" id="Main.pou~Code~0000.st" />
+      </folder>
+    </folder>
+  </folder>
+</content>

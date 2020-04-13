@@ -1,0 +1,2900 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataListDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="DataList.xsd" Version="1.00">
+  <DataList Id="747f96be-d2e3-466a-9d06-486f1cdec0b0" ConfigurationUri="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/09451df4-5b18-4474-b1bd-c5f625d4c2b7" PlcIdentifier="b84580d7-61ea-48ec-9861-abe43adbd376" TargetAttributes="PlcNext">
+    <Datum Uuid="5cb72bd2-ca02-4f0b-9ee5-2fbe40223e8d">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="ProcessDatum" ObjectIndex="0" ObjectId="/PDList/PD[@uid=iodpdin]" SourceId="e0824e40-3937-4640-a92f-0b026b52a637">
+        <Label>~DI8</Label>
+        <Access>I</Access>
+        <DataType>Bitstring8</DataType>
+        <Offset>1.0</Offset>
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / dio-1 / ~DI8</DisplayName>
+        <NodeId>0</NodeId>
+        <InputFrameId>0</InputFrameId>
+        <OutputFrameId>1</OutputFrameId>
+      </Role>
+    </Datum>
+    <Datum Uuid="aa977fce-6188-47bd-9a7c-9ad319cee4bf">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="ProcessDatum" ObjectIndex="1" ObjectId="/PDList/PD[@uid=iodpdout]" SourceId="e0824e40-3937-4640-a92f-0b026b52a637">
+        <Label>~DO8</Label>
+        <Access>Q</Access>
+        <DataType>Bitstring8</DataType>
+        <Offset>1.0</Offset>
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / dio-1 / ~DO8</DisplayName>
+        <NodeId>0</NodeId>
+        <InputFrameId>0</InputFrameId>
+        <OutputFrameId>1</OutputFrameId>
+      </Role>
+    </Datum>
+    <Datum Uuid="87a2c846-f182-41d4-8f36-ad6d9ee06d8d">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="ProcessDatum" ObjectIndex="0" ObjectId="/PDList/PD[@uid=iodpdin]" SourceId="a62274c5-682f-4173-96c3-b365764f145e">
+        <Label>~AI32</Label>
+        <Access>I</Access>
+        <DataType>Bitstring32</DataType>
+        <Offset>0.0</Offset>
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / aio-1 / ~AI32</DisplayName>
+        <NodeId>1</NodeId>
+        <InputFrameId>2</InputFrameId>
+        <OutputFrameId>3</OutputFrameId>
+      </Role>
+    </Datum>
+    <Datum Uuid="d6f2a945-ac06-4d44-ab1a-04781bb24b6e">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="ProcessDatum" ObjectIndex="1" ObjectId="/PDList/PD[@uid=io0]" SourceId="a62274c5-682f-4173-96c3-b365764f145e">
+        <Label>IN01</Label>
+        <Access>I</Access>
+        <DataType>Bitstring16</DataType>
+        <Offset>0.0</Offset>
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / aio-1 / IN01</DisplayName>
+        <NodeId>1</NodeId>
+        <InputFrameId>2</InputFrameId>
+        <OutputFrameId>3</OutputFrameId>
+      </Role>
+      <Role TypeName="Variable" ObjectId="f9ede8dd-8c50-4151-8bbb-7dfa06a64ade" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>I_2_IN01</Name>
+        <Usage>Global</Usage>
+        <DataType>WORD</DataType>
+        <Address />
+        <InitValue>WORD#16#0</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.I_2_IN01</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+    </Datum>
+    <Datum Uuid="aeba2bb0-c52e-43f5-801e-43f19e4d01ef">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="ProcessDatum" ObjectIndex="2" ObjectId="/PDList/PD[@uid=io1]" SourceId="a62274c5-682f-4173-96c3-b365764f145e">
+        <Label>IN02</Label>
+        <Access>I</Access>
+        <DataType>Bitstring16</DataType>
+        <Offset>2.0</Offset>
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / aio-1 / IN02</DisplayName>
+        <NodeId>1</NodeId>
+        <InputFrameId>2</InputFrameId>
+        <OutputFrameId>3</OutputFrameId>
+      </Role>
+      <Role TypeName="Variable" ObjectId="9ec73c39-8d0c-4b95-a8a8-a3b63b53498a" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>I_2_IN02</Name>
+        <Usage>Global</Usage>
+        <DataType>WORD</DataType>
+        <Address />
+        <InitValue>WORD#16#0</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.I_2_IN02</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+    </Datum>
+    <Datum Uuid="3ab39b74-a626-49d6-841c-7d8ecb5442f2">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="ProcessDatum" ObjectIndex="3" ObjectId="/PDList/PD[@uid=io2]" SourceId="a62274c5-682f-4173-96c3-b365764f145e">
+        <Label>~AQ32</Label>
+        <Access>Q</Access>
+        <DataType>Bitstring32</DataType>
+        <Offset>0.0</Offset>
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / aio-1 / ~AQ32</DisplayName>
+        <NodeId>1</NodeId>
+        <InputFrameId>2</InputFrameId>
+        <OutputFrameId>3</OutputFrameId>
+      </Role>
+    </Datum>
+    <Datum Uuid="700953c1-7fdc-4673-a91c-ebed17ee1567">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="ProcessDatum" ObjectIndex="4" ObjectId="/PDList/PD[@uid=io3]" SourceId="a62274c5-682f-4173-96c3-b365764f145e">
+        <Label>OUT01</Label>
+        <Access>Q</Access>
+        <DataType>Bitstring16</DataType>
+        <Offset>0.0</Offset>
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / aio-1 / OUT01</DisplayName>
+        <NodeId>1</NodeId>
+        <InputFrameId>2</InputFrameId>
+        <OutputFrameId>3</OutputFrameId>
+      </Role>
+      <Role TypeName="Variable" ObjectId="44e02775-b1ce-4bb4-b49c-54d1d2b9874e" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>Q_2_OUT01</Name>
+        <Usage>Global</Usage>
+        <DataType>WORD</DataType>
+        <Address />
+        <InitValue>WORD#16#0</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.Q_2_OUT01</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+    </Datum>
+    <Datum Uuid="97bca94c-c3f9-4d85-a9e0-b4f7c7d7abcc">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="ProcessDatum" ObjectIndex="5" ObjectId="/PDList/PD[@uid=io4]" SourceId="a62274c5-682f-4173-96c3-b365764f145e">
+        <Label>OUT02</Label>
+        <Access>Q</Access>
+        <DataType>Bitstring16</DataType>
+        <Offset>2.0</Offset>
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / aio-1 / OUT02</DisplayName>
+        <NodeId>1</NodeId>
+        <InputFrameId>2</InputFrameId>
+        <OutputFrameId>3</OutputFrameId>
+      </Role>
+      <Role TypeName="Variable" ObjectId="c128386c-ebfc-4607-baa1-180a50e1409d" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>Q_2_OUT02</Name>
+        <Usage>Global</Usage>
+        <DataType>WORD</DataType>
+        <Address />
+        <InitValue>WORD#16#0</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.Q_2_OUT02</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+    </Datum>
+    <Datum Uuid="ae807d18-40f0-4651-966c-6f4a5563fe17">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="f2e0c0a0-1487-47c5-a72a-d3701aa8d4f0" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>PND_S1_PLC_RUN</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.PND_S1_PLC_RUN</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="0" ObjectId="/PDList/PD[@uid=pndpd1]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_4">
+        <Label>PND_S1_PLC_RUN</Label>
+        <Access>I</Access>
+        <DataType>BOOL</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / Profinet / PND_S1_PLC_RUN</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="b2e506b5-4e43-4341-a5f1-2b04e2cf0fc8">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="c91bd181-753d-4869-80db-32517d62d06c" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>PND_S1_VALID_DATA_CYCLE</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.PND_S1_VALID_DATA_CYCLE</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="1" ObjectId="/PDList/PD[@uid=pndpd2]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_4">
+        <Label>PND_S1_VALID_DATA_CYCLE</Label>
+        <Access>I</Access>
+        <DataType>BOOL</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / Profinet / PND_S1_VALID_DATA_CYCLE</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="fe6f0710-0257-4801-b8df-e2490df12ecd">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="1f7d05c1-ad28-4f2a-95f3-55759f6a6229" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>PND_S1_OUTPUT_STATUS_GOOD</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.PND_S1_OUTPUT_STATUS_GOOD</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="2" ObjectId="/PDList/PD[@uid=pndpd3]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_4">
+        <Label>PND_S1_OUTPUT_STATUS_GOOD</Label>
+        <Access>I</Access>
+        <DataType>BOOL</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / Profinet / PND_S1_OUTPUT_STATUS_GOOD</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="a46cf355-0298-4697-a781-e34295307a6f">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="03402517-127c-4b46-be4d-654186ae9a2d" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>PND_S1_INPUT_STATUS_GOOD</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.PND_S1_INPUT_STATUS_GOOD</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="3" ObjectId="/PDList/PD[@uid=pndpd4]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_4">
+        <Label>PND_S1_INPUT_STATUS_GOOD</Label>
+        <Access>I</Access>
+        <DataType>BOOL</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / Profinet / PND_S1_INPUT_STATUS_GOOD</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="ea80c21f-2ab8-4174-8705-83ce9c3f347f">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="389260df-75c1-4986-bd46-6f4b352d0d53" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>PND_S1_DATA_LENGTH</Name>
+        <Usage>Global</Usage>
+        <DataType>WORD</DataType>
+        <Address />
+        <InitValue>WORD#16#0</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.PND_S1_DATA_LENGTH</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="4" ObjectId="/PDList/PD[@uid=pndpd5]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_4">
+        <Label>PND_S1_DATA_LENGTH</Label>
+        <Access>I</Access>
+        <DataType>Bitstring16</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / Profinet / PND_S1_DATA_LENGTH</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="453dc524-726f-4d74-bb90-fe6cd5d7db49">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="9c284e7a-de3f-4585-bb87-d5aa986b37bc" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>PND_S1_OUTPUTS</Name>
+        <Usage>Global</Usage>
+        <DataType>PND_IO_512</DataType>
+        <Address />
+        <InitValue />
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.PND_S1_OUTPUTS</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="5" ObjectId="/PDList/PD[@uid=pndpd6]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_4">
+        <Label>PND_S1_OUTPUTS</Label>
+        <Access>Q</Access>
+        <DataType>Octetstring[512]</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / Profinet / PND_S1_OUTPUTS</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="ad6b20cb-a783-4511-b0ec-f5c4847ea448">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="de9315fb-986e-4f46-9c37-c0ee6d2dd3f3" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>PND_S1_INPUTS</Name>
+        <Usage>Global</Usage>
+        <DataType>PND_IO_512</DataType>
+        <Address />
+        <InitValue />
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.PND_S1_INPUTS</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="6" ObjectId="/PDList/PD[@uid=pndpd7]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_4">
+        <Label>PND_S1_INPUTS</Label>
+        <Access>I</Access>
+        <DataType>Octetstring[512]</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / Profinet / PND_S1_INPUTS</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="4fe76df1-d38d-4401-9499-18ce1dcc86c5">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="dc1e3b87-dc12-4cc8-80a0-b89cd4bad4f1" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>PND_IO_DRIVEN_BY_PLC</Name>
+        <Usage>Global</Usage>
+        <DataType>INT</DataType>
+        <Address />
+        <InitValue>INT#0</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.PND_IO_DRIVEN_BY_PLC</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="7" ObjectId="/PDList/PD[@uid=pndpd8]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_4">
+        <Label>PND_IO_DRIVEN_BY_PLC</Label>
+        <Access>I</Access>
+        <DataType>Signed16</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / Profinet / PND_IO_DRIVEN_BY_PLC</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="44a868a2-ec2b-4e0c-abd6-ef4d93b9f3ef">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="4de09e13-a26c-44cf-a1be-e246be0b9ddb" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>AXIO_DIAG_STATUS_REG_HI</Name>
+        <Usage>Global</Usage>
+        <DataType>BYTE</DataType>
+        <Address />
+        <InitValue>BYTE#16#0</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.AXIO_DIAG_STATUS_REG_HI</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="0" ObjectId="/PDList/PD[@uid=axiod0]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_ax">
+        <Label>AXIO_DIAG_STATUS_REG_HI</Label>
+        <Access>I</Access>
+        <DataType>Bitstring8</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / Axioline F / AXIO_DIAG_STATUS_REG_HI</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="2e5f3914-6006-43a2-ac3e-5d6d98e949d1">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="fed01fc9-4df7-4a8a-9562-a6fdf209e05a" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>AXIO_DIAG_STATUS_REG_LOW</Name>
+        <Usage>Global</Usage>
+        <DataType>BYTE</DataType>
+        <Address />
+        <InitValue>BYTE#16#0</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.AXIO_DIAG_STATUS_REG_LOW</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="1" ObjectId="/PDList/PD[@uid=axiod1]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_ax">
+        <Label>AXIO_DIAG_STATUS_REG_LOW</Label>
+        <Access>I</Access>
+        <DataType>Bitstring8</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / Axioline F / AXIO_DIAG_STATUS_REG_LOW</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="84a1f344-5bc2-4fe3-94ef-7bcb573584df">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="94cd0364-1eb0-4dbe-9bf5-e30e04054df4" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>AXIO_DIAG_PARAM_REG_HI</Name>
+        <Usage>Global</Usage>
+        <DataType>BYTE</DataType>
+        <Address />
+        <InitValue>BYTE#16#0</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.AXIO_DIAG_PARAM_REG_HI</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="2" ObjectId="/PDList/PD[@uid=axiod2]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_ax">
+        <Label>AXIO_DIAG_PARAM_REG_HI</Label>
+        <Access>I</Access>
+        <DataType>Bitstring8</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / Axioline F / AXIO_DIAG_PARAM_REG_HI</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="82d2b4a1-69c0-42ca-a39f-85fbe754f8f2">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="a77d6f16-7ddf-4877-9f3b-a17b4acde2e2" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>AXIO_DIAG_PARAM_REG_LOW</Name>
+        <Usage>Global</Usage>
+        <DataType>BYTE</DataType>
+        <Address />
+        <InitValue>BYTE#16#0</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.AXIO_DIAG_PARAM_REG_LOW</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="3" ObjectId="/PDList/PD[@uid=axiod3]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_ax">
+        <Label>AXIO_DIAG_PARAM_REG_LOW</Label>
+        <Access>I</Access>
+        <DataType>Bitstring8</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / Axioline F / AXIO_DIAG_PARAM_REG_LOW</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="e94f4aff-b669-43d2-a75e-417a559b95f7">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="2e2b6e29-95c6-4d36-9cbf-e65f9879fb70" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>AXIO_DIAG_PARAM_2_REG_HI</Name>
+        <Usage>Global</Usage>
+        <DataType>BYTE</DataType>
+        <Address />
+        <InitValue>BYTE#16#0</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.AXIO_DIAG_PARAM_2_REG_HI</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="4" ObjectId="/PDList/PD[@uid=axiod4]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_ax">
+        <Label>AXIO_DIAG_PARAM_2_REG_HI</Label>
+        <Access>I</Access>
+        <DataType>Bitstring8</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / Axioline F / AXIO_DIAG_PARAM_2_REG_HI</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="7c64937b-172d-486d-9070-da3a76ce6eeb">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="152f9af6-fe65-4057-8256-d537dcfd3552" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>AXIO_DIAG_PARAM_2_REG_LOW</Name>
+        <Usage>Global</Usage>
+        <DataType>BYTE</DataType>
+        <Address />
+        <InitValue>BYTE#16#0</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.AXIO_DIAG_PARAM_2_REG_LOW</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="5" ObjectId="/PDList/PD[@uid=axiod5]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_ax">
+        <Label>AXIO_DIAG_PARAM_2_REG_LOW</Label>
+        <Access>I</Access>
+        <DataType>Bitstring8</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / Axioline F / AXIO_DIAG_PARAM_2_REG_LOW</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="761d3054-7bf2-410c-b9ef-d759d7516860">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="5c96ef54-8de8-4fdf-a1cc-17fbc1dd99e6" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>AXIO_DIAG_STATUS_REG_PF</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.AXIO_DIAG_STATUS_REG_PF</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="6" ObjectId="/PDList/PD[@uid=axiod6]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_ax">
+        <Label>AXIO_DIAG_STATUS_REG_PF</Label>
+        <Access>I</Access>
+        <DataType>BOOL</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / Axioline F / AXIO_DIAG_STATUS_REG_PF</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="8cda5a17-62ba-4745-8715-251dc8a43b48">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="dd104562-ce76-4a40-b938-91d468b77a38" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>AXIO_DIAG_STATUS_REG_BUS</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.AXIO_DIAG_STATUS_REG_BUS</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="7" ObjectId="/PDList/PD[@uid=axiod7]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_ax">
+        <Label>AXIO_DIAG_STATUS_REG_BUS</Label>
+        <Access>I</Access>
+        <DataType>BOOL</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / Axioline F / AXIO_DIAG_STATUS_REG_BUS</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="971bf69a-7d88-4b3f-bbaa-0bcebd110410">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="3c02fb09-5169-4198-ae02-251705a17cee" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>AXIO_DIAG_STATUS_REG_RUN</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.AXIO_DIAG_STATUS_REG_RUN</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="8" ObjectId="/PDList/PD[@uid=axiod8]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_ax">
+        <Label>AXIO_DIAG_STATUS_REG_RUN</Label>
+        <Access>I</Access>
+        <DataType>BOOL</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / Axioline F / AXIO_DIAG_STATUS_REG_RUN</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="992715bb-1594-4f65-be5d-16082e044c67">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="9c7454e3-77bf-4e56-818e-7922cc2dd644" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>AXIO_DIAG_STATUS_REG_ACT</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.AXIO_DIAG_STATUS_REG_ACT</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="9" ObjectId="/PDList/PD[@uid=axiod9]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_ax">
+        <Label>AXIO_DIAG_STATUS_REG_ACT</Label>
+        <Access>I</Access>
+        <DataType>BOOL</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / Axioline F / AXIO_DIAG_STATUS_REG_ACT</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="eaf31e0c-6d1e-401f-832d-f6394207ad20">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="da70c309-5cbf-42b3-bd9c-aa0821ddbe19" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>AXIO_DIAG_STATUS_REG_RDY</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.AXIO_DIAG_STATUS_REG_RDY</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="10" ObjectId="/PDList/PD[@uid=axiod10]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_ax">
+        <Label>AXIO_DIAG_STATUS_REG_RDY</Label>
+        <Access>I</Access>
+        <DataType>BOOL</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / Axioline F / AXIO_DIAG_STATUS_REG_RDY</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="2f73cf55-d1d6-4283-a17f-ec89086df4d3">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="1bdd8234-c551-4322-89b5-9204456cb5ec" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>AXIO_DIAG_STATUS_REG_SYSFAIL</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.AXIO_DIAG_STATUS_REG_SYSFAIL</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="11" ObjectId="/PDList/PD[@uid=axiod11]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_ax">
+        <Label>AXIO_DIAG_STATUS_REG_SYSFAIL</Label>
+        <Access>I</Access>
+        <DataType>BOOL</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / Axioline F / AXIO_DIAG_STATUS_REG_SYSFAIL</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="5985b134-d8c1-4a0f-8121-bdbc4bda409b">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="fb71a968-ce12-43b2-b6f8-d66498bccb14" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>AXIO_DIAG_STATUS_REG_PW</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.AXIO_DIAG_STATUS_REG_PW</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="12" ObjectId="/PDList/PD[@uid=axiod12]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_ax">
+        <Label>AXIO_DIAG_STATUS_REG_PW</Label>
+        <Access>I</Access>
+        <DataType>BOOL</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / Axioline F / AXIO_DIAG_STATUS_REG_PW</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="a1ec2a5e-ff93-46a9-91cd-98a48a3059b0">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="eb4fc504-47d1-43f7-b004-cc43cb97bd98" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>IB_DIAG_STATUS_REG_HI</Name>
+        <Usage>Global</Usage>
+        <DataType>BYTE</DataType>
+        <Address />
+        <InitValue>BYTE#16#0</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.IB_DIAG_STATUS_REG_HI</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="0" ObjectId="/PDList/PD[@uid=pdib1]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_8">
+        <Label>IB_DIAG_STATUS_REG_HI</Label>
+        <Access>I</Access>
+        <DataType>Bitstring8</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / AXC F IL ADAPT / AXC XT IB / IB_DIAG_STATUS_REG_HI</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="854e583c-2a72-41f9-af44-05b78adb3dae">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="a5ecdded-1e55-4dd2-8ef8-2a3effacd74a" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>IB_DIAG_STATUS_REG_LOW</Name>
+        <Usage>Global</Usage>
+        <DataType>BYTE</DataType>
+        <Address />
+        <InitValue>BYTE#16#0</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.IB_DIAG_STATUS_REG_LOW</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="1" ObjectId="/PDList/PD[@uid=pdib2]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_8">
+        <Label>IB_DIAG_STATUS_REG_LOW</Label>
+        <Access>I</Access>
+        <DataType>Bitstring8</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / AXC F IL ADAPT / AXC XT IB / IB_DIAG_STATUS_REG_LOW</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="62765bcc-12e0-4ee7-904c-c8a059d7384b">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="ca54227d-63dc-463d-9a03-51520d989d45" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>IB_DIAG_STATUS_REG_SYSFAIL</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.IB_DIAG_STATUS_REG_SYSFAIL</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="2" ObjectId="/PDList/PD[@uid=pdib3]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_8">
+        <Label>IB_DIAG_STATUS_REG_SYSFAIL</Label>
+        <Access>I</Access>
+        <DataType>BOOL</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / AXC F IL ADAPT / AXC XT IB / IB_DIAG_STATUS_REG_SYSFAIL</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="fecba4c5-bacd-42aa-bedb-34f9c5a946d3">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="63a7afa7-bf8c-429f-9a18-b19c08d48915" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>IB_DIAG_STATUS_REG_WARN</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.IB_DIAG_STATUS_REG_WARN</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="3" ObjectId="/PDList/PD[@uid=pdib4]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_8">
+        <Label>IB_DIAG_STATUS_REG_WARN</Label>
+        <Access>I</Access>
+        <DataType>BOOL</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / AXC F IL ADAPT / AXC XT IB / IB_DIAG_STATUS_REG_WARN</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="06f9910e-36fe-4227-97c2-bd7012ad31bc">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="27038139-4563-481a-8a5d-4b94e77a7120" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>IB_DIAG_STATUS_REG_QUAL</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.IB_DIAG_STATUS_REG_QUAL</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="4" ObjectId="/PDList/PD[@uid=pdib5]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_8">
+        <Label>IB_DIAG_STATUS_REG_QUAL</Label>
+        <Access>I</Access>
+        <DataType>BOOL</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / AXC F IL ADAPT / AXC XT IB / IB_DIAG_STATUS_REG_QUAL</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="10ca3869-a68e-41de-ad04-253ab51ad3db">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="b47a2287-6ea3-49c5-8d37-838869b1efd2" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>IB_DIAG_STATUS_REG_USER</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.IB_DIAG_STATUS_REG_USER</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="5" ObjectId="/PDList/PD[@uid=pdib6]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_8">
+        <Label>IB_DIAG_STATUS_REG_USER</Label>
+        <Access>I</Access>
+        <DataType>BOOL</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / AXC F IL ADAPT / AXC XT IB / IB_DIAG_STATUS_REG_USER</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="445dbc67-11fb-4ee3-8e76-1cfb24557564">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="a5f4864d-30bd-4e34-8590-7603fa1447d6" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>IB_DIAG_STATUS_REG_PF</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.IB_DIAG_STATUS_REG_PF</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="6" ObjectId="/PDList/PD[@uid=pdib7]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_8">
+        <Label>IB_DIAG_STATUS_REG_PF</Label>
+        <Access>I</Access>
+        <DataType>BOOL</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / AXC F IL ADAPT / AXC XT IB / IB_DIAG_STATUS_REG_PF</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="ff1b6de6-0c92-4860-b74e-a12ab491e407">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="4c825c28-4233-4dfe-8159-9ac4c7f0cdb2" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>IB_DIAG_STATUS_REG_BUS</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.IB_DIAG_STATUS_REG_BUS</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="7" ObjectId="/PDList/PD[@uid=pdib8]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_8">
+        <Label>IB_DIAG_STATUS_REG_BUS</Label>
+        <Access>I</Access>
+        <DataType>BOOL</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / AXC F IL ADAPT / AXC XT IB / IB_DIAG_STATUS_REG_BUS</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="329e576e-cd01-4c36-8513-ed17b5205acf">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="01fe8bd8-b6a2-481f-be05-0206271a26e2" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>IB_DIAG_STATUS_REG_CTRL</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.IB_DIAG_STATUS_REG_CTRL</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="8" ObjectId="/PDList/PD[@uid=pdib9]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_8">
+        <Label>IB_DIAG_STATUS_REG_CTRL</Label>
+        <Access>I</Access>
+        <DataType>BOOL</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / AXC F IL ADAPT / AXC XT IB / IB_DIAG_STATUS_REG_CTRL</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="7c40d2c8-938e-481d-b807-969b4737b18e">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="1420409d-66cd-4d0f-ad64-287f03388830" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>IB_DIAG_STATUS_REG_DTC</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.IB_DIAG_STATUS_REG_DTC</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="9" ObjectId="/PDList/PD[@uid=pdib10]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_8">
+        <Label>IB_DIAG_STATUS_REG_DTC</Label>
+        <Access>I</Access>
+        <DataType>BOOL</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / AXC F IL ADAPT / AXC XT IB / IB_DIAG_STATUS_REG_DTC</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="a40530ae-d70a-4155-8bd4-94776b2a8724">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="92f41021-d317-4003-8d94-e0c580fef1fa" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>IB_DIAG_STATUS_REG_RUN</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.IB_DIAG_STATUS_REG_RUN</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="10" ObjectId="/PDList/PD[@uid=pdib11]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_8">
+        <Label>IB_DIAG_STATUS_REG_RUN</Label>
+        <Access>I</Access>
+        <DataType>BOOL</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / AXC F IL ADAPT / AXC XT IB / IB_DIAG_STATUS_REG_RUN</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="9be96f1b-360a-47d9-aa0a-8cc17cc72c17">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="a702cb15-4e21-4398-988a-d64480528b5d" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>IB_DIAG_STATUS_REG_ACT</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.IB_DIAG_STATUS_REG_ACT</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="11" ObjectId="/PDList/PD[@uid=pdib12]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_8">
+        <Label>IB_DIAG_STATUS_REG_ACT</Label>
+        <Access>I</Access>
+        <DataType>BOOL</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / AXC F IL ADAPT / AXC XT IB / IB_DIAG_STATUS_REG_ACT</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="d7c3d270-3bbd-4b4c-a3af-a52c00df211b">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="cddfbfe3-87e5-421b-ab70-417f568d82cf" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>IB_DIAG_STATUS_REG_RDY</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.IB_DIAG_STATUS_REG_RDY</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="12" ObjectId="/PDList/PD[@uid=pdib13]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_8">
+        <Label>IB_DIAG_STATUS_REG_RDY</Label>
+        <Access>I</Access>
+        <DataType>BOOL</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / AXC F IL ADAPT / AXC XT IB / IB_DIAG_STATUS_REG_RDY</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="d2f05920-efb7-421e-9d23-f0ad329cbdc1">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="29a6e14b-b486-4c3c-bce2-45222c634bb5" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>IB_DIAG_PARAM_REG_HI</Name>
+        <Usage>Global</Usage>
+        <DataType>BYTE</DataType>
+        <Address />
+        <InitValue>BYTE#16#0</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.IB_DIAG_PARAM_REG_HI</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="13" ObjectId="/PDList/PD[@uid=pdib14]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_8">
+        <Label>IB_DIAG_PARAM_REG_HI</Label>
+        <Access>I</Access>
+        <DataType>Bitstring8</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / AXC F IL ADAPT / AXC XT IB / IB_DIAG_PARAM_REG_HI</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="e43a9a43-3b79-4501-805c-341416cbf314">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="d3e5f8af-dd70-4208-a86a-393ff5e47759" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>IB_DIAG_PARAM_REG_LOW</Name>
+        <Usage>Global</Usage>
+        <DataType>BYTE</DataType>
+        <Address />
+        <InitValue>BYTE#16#0</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.IB_DIAG_PARAM_REG_LOW</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="14" ObjectId="/PDList/PD[@uid=pdib15]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_8">
+        <Label>IB_DIAG_PARAM_REG_LOW</Label>
+        <Access>I</Access>
+        <DataType>Bitstring8</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / AXC F IL ADAPT / AXC XT IB / IB_DIAG_PARAM_REG_LOW</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="4dc55292-9e6d-4668-882a-0be2953e48be">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="1de104af-f183-4a43-a8db-0c24ed49e618" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>IB_DIAG_PARAM_2_REG_HI</Name>
+        <Usage>Global</Usage>
+        <DataType>BYTE</DataType>
+        <Address />
+        <InitValue>BYTE#16#0</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.IB_DIAG_PARAM_2_REG_HI</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="15" ObjectId="/PDList/PD[@uid=pdib16]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_8">
+        <Label>IB_DIAG_PARAM_2_REG_HI</Label>
+        <Access>I</Access>
+        <DataType>Bitstring8</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / AXC F IL ADAPT / AXC XT IB / IB_DIAG_PARAM_2_REG_HI</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="86e1d7ad-7244-44b4-aab0-1f88f7db169a">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="2cc13ea9-aba3-49bb-8737-edcf173f3f8f" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>IB_DIAG_PARAM_2_REG_LOW</Name>
+        <Usage>Global</Usage>
+        <DataType>BYTE</DataType>
+        <Address />
+        <InitValue>BYTE#16#0</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.IB_DIAG_PARAM_2_REG_LOW</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="16" ObjectId="/PDList/PD[@uid=pdib17]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_8">
+        <Label>IB_DIAG_PARAM_2_REG_LOW</Label>
+        <Access>I</Access>
+        <DataType>Bitstring8</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / AXC F IL ADAPT / AXC XT IB / IB_DIAG_PARAM_2_REG_LOW</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="46f989b9-2b49-41c7-a2a1-e6ff7fbcaf9d">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="fc294685-119f-45b8-aabf-c77cd6292c25" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>ESM_DATA</Name>
+        <Usage>Global</Usage>
+        <DataType>ESM_DAT</DataType>
+        <Address />
+        <InitValue />
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.ESM_DATA</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="0" ObjectId="/PDList/PD[@uid=pdesm1]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_1">
+        <Label>ESM_DATA</Label>
+        <Access>I</Access>
+        <DataType>ESM_DAT</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLCnext / ESM_DATA</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="9a63bd46-1a87-4835-9f54-36dcbc58a497">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="4afa0e30-bf52-4f6a-83b6-40fc72707aa8" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>RTC</Name>
+        <Usage>Global</Usage>
+        <DataType>RTC_TYPE</DataType>
+        <Address />
+        <InitValue />
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.RTC</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="1" ObjectId="/PDList/PD[@uid=pddi1]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_1">
+        <Label>RTC</Label>
+        <Access>I</Access>
+        <DataType>RTC_TYPE</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLCnext / RTC</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="7fb15367-2f7d-43cc-b851-9666bc2d93fd">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="58df9a4b-f3a7-471f-957c-e56e87541826" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>DEVICE_STATE</Name>
+        <Usage>Global</Usage>
+        <DataType>DEVICE_STATE_2152_TYPE</DataType>
+        <Address />
+        <InitValue />
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.DEVICE_STATE</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="2" ObjectId="/PDList/PD[@uid=pddi2]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_1">
+        <Label>DEVICE_STATE</Label>
+        <Access>I</Access>
+        <DataType>DEVICE_STATE_2152_TYPE</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLCnext / DEVICE_STATE</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="9d305870-ef62-443e-b4f7-9597b9d7fcb0">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="cb978f06-1eb7-4656-9057-dac681aa8ef4" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>PNIO_SYSTEM_BF</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.PNIO_SYSTEM_BF</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="8" ObjectId="/PDList/PD[@uid=pncpd1]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_4">
+        <Label>PNIO_SYSTEM_BF</Label>
+        <Access>I</Access>
+        <DataType>BOOL</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / Profinet / PNIO_SYSTEM_BF</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="c8578976-c67e-4bc3-8570-5d032d21c66f">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="87f31ae0-e30e-43f2-8f3d-7c400e95fec8" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>PNIO_SYSTEM_SF</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.PNIO_SYSTEM_SF</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="9" ObjectId="/PDList/PD[@uid=pncpd2]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_4">
+        <Label>PNIO_SYSTEM_SF</Label>
+        <Access>I</Access>
+        <DataType>BOOL</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / Profinet / PNIO_SYSTEM_SF</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="514c4196-d8c8-4816-a515-eef0bfded2ac">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="c7dab69b-3839-4f71-a0b0-1630f4c454b1" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>PNIO_MAINTENANCE_DEMANDED</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.PNIO_MAINTENANCE_DEMANDED</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="10" ObjectId="/PDList/PD[@uid=pncpd3]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_4">
+        <Label>PNIO_MAINTENANCE_DEMANDED</Label>
+        <Access>I</Access>
+        <DataType>BOOL</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / Profinet / PNIO_MAINTENANCE_DEMANDED</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="426883ca-4a33-4e62-9b3d-59435b44e7bf">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="be4c9e94-2445-4439-a281-ddf7c7040183" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>PNIO_MAINTENANCE_REQUIRED</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.PNIO_MAINTENANCE_REQUIRED</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="11" ObjectId="/PDList/PD[@uid=pncpd4]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_4">
+        <Label>PNIO_MAINTENANCE_REQUIRED</Label>
+        <Access>I</Access>
+        <DataType>BOOL</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / Profinet / PNIO_MAINTENANCE_REQUIRED</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="1caa948f-8b6b-4c45-89e9-774507c125cd">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="d025f5a4-bc61-4ccd-b95c-f695326eadc8" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>PNIO_CONFIG_STATUS</Name>
+        <Usage>Global</Usage>
+        <DataType>WORD</DataType>
+        <Address />
+        <InitValue>WORD#16#0</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.PNIO_CONFIG_STATUS</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="12" ObjectId="/PDList/PD[@uid=pncpd5]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_4">
+        <Label>PNIO_CONFIG_STATUS</Label>
+        <Access>I</Access>
+        <DataType>Bitstring16</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / Profinet / PNIO_CONFIG_STATUS</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="6fea7671-704f-45d6-be4a-eaa2cdb6279a">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="72e64d7d-5137-41f6-8750-98118bc3ee7b" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>PNIO_CONFIG_STATUS_ACTIVE</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.PNIO_CONFIG_STATUS_ACTIVE</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="13" ObjectId="/PDList/PD[@uid=pncpd6]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_4">
+        <Label>PNIO_CONFIG_STATUS_ACTIVE</Label>
+        <Access>I</Access>
+        <DataType>BOOL</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / Profinet / PNIO_CONFIG_STATUS_ACTIVE</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="86bf508d-2a43-4069-9e1f-f9402c133000">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="03a376cd-0238-41ed-92a8-b74a4d4696aa" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>PNIO_CONFIG_STATUS_READY</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.PNIO_CONFIG_STATUS_READY</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="14" ObjectId="/PDList/PD[@uid=pncpd7]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_4">
+        <Label>PNIO_CONFIG_STATUS_READY</Label>
+        <Access>I</Access>
+        <DataType>BOOL</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / Profinet / PNIO_CONFIG_STATUS_READY</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="c0bd5c4f-aa78-4961-8fb5-bde4af950fc6">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="57106ca2-572b-4d7d-a4b9-094d5955c449" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>PNIO_CONFIG_STATUS_CFG_FAULT</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.PNIO_CONFIG_STATUS_CFG_FAULT</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="15" ObjectId="/PDList/PD[@uid=pncpd8]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_4">
+        <Label>PNIO_CONFIG_STATUS_CFG_FAULT</Label>
+        <Access>I</Access>
+        <DataType>BOOL</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / Profinet / PNIO_CONFIG_STATUS_CFG_FAULT</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="ef204237-fa98-434c-b91f-d17e200683cd">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="f7203f81-bef6-4a01-adc3-74cbd20f102f" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>PNIO_FORCE_FAILSAFE</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.PNIO_FORCE_FAILSAFE</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="16" ObjectId="/PDList/PD[@uid=pncpd9]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_4">
+        <Label>PNIO_FORCE_FAILSAFE</Label>
+        <Access>Q</Access>
+        <DataType>BOOL</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / Profinet / PNIO_FORCE_FAILSAFE</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="030cd920-e53a-4ae2-8657-f76524131aeb">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="aebb716b-91c6-4b3d-a241-0f55b83f0785" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>PNIO_FORCE_PRIMARY</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.PNIO_FORCE_PRIMARY</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="17" ObjectId="/PDList/PD[@uid=pncpd10]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_4">
+        <Label>PNIO_FORCE_PRIMARY</Label>
+        <Access>Q</Access>
+        <DataType>BOOL</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / Profinet / PNIO_FORCE_PRIMARY</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="bacb7935-8852-4173-a6c6-bad305088ec8">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="00d4650d-407a-4c25-9929-9abb8931f6e9" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>IP_ACTIVE_SOCKETS</Name>
+        <Usage>Global</Usage>
+        <DataType>UINT</DataType>
+        <Address>%MW1.30000</Address>
+        <InitValue>UINT#0</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.IP_ACTIVE_SOCKETS</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+        <Constraint TypeName="Ade.DataList.Constraints.Unconnectable, Ade.DataListImpl" Parameters="ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="7ce3742a-f684-4913-a032-9a707654007a">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="ebdf619f-fdc3-40af-8c74-c2ab62283bcf" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>TLS_ACTIVE_SOCKETS</Name>
+        <Usage>Global</Usage>
+        <DataType>UINT</DataType>
+        <Address>%MW1.30100</Address>
+        <InitValue>UINT#0</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.TLS_ACTIVE_SOCKETS</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+        <Constraint TypeName="Ade.DataList.Constraints.Unconnectable, Ade.DataListImpl" Parameters="ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="bd258abb-5829-4b71-9a6c-d29148089a83">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="3288a51a-a0a2-438f-ab08-95e91d561033" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>HMI_STATUS</Name>
+        <Usage>Global</Usage>
+        <DataType>HMI_STATUS_TYPE</DataType>
+        <Address />
+        <InitValue />
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.HMI_STATUS</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="0" ObjectId="/PDList/PD[@uid=hmipd001]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_3">
+        <Label>HMI_STATUS</Label>
+        <Access>I</Access>
+        <DataType>HMI_STATUS_TYPE</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / HMI Webserver / HMI_STATUS</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="d5918e54-0745-4246-9107-d143d6256879">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="8d3096e6-6880-4a1b-9bbb-5e2e8765296f" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>HMI_CONTROL</Name>
+        <Usage>Global</Usage>
+        <DataType>HMI_CONTROL_TYPE</DataType>
+        <Address />
+        <InitValue />
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.HMI_CONTROL</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="1" ObjectId="/PDList/PD[@uid=hmipd002]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_3">
+        <Label>HMI_CONTROL</Label>
+        <Access>Q</Access>
+        <DataType>HMI_CONTROL_TYPE</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / HMI Webserver / HMI_CONTROL</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="27f5af69-941a-489a-b8e7-d1d55fba9e0f">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="2ab35482-1fc4-45dd-86d9-1d687999756e" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>EIPD_INPUTS</Name>
+        <Usage>Global</Usage>
+        <DataType>EIPD_IO_ARRAY</DataType>
+        <Address />
+        <InitValue />
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.EIPD_INPUTS</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="0" ObjectId="/PDList/PD[@uid=eip001]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_7">
+        <Label>EIPD_INPUTS</Label>
+        <Access>I</Access>
+        <DataType>EIPD_IO_ARRAY</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>Ethernet/IP / EIPD_INPUTS</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="77142c55-72a3-45bc-8e70-11aec5297d6e">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="66f43bf7-44d3-440f-95c8-f82ebf96d463" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>EIPD_OUTPUTS</Name>
+        <Usage>Global</Usage>
+        <DataType>EIPD_IO_ARRAY</DataType>
+        <Address />
+        <InitValue />
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.EIPD_OUTPUTS</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="1" ObjectId="/PDList/PD[@uid=eip002]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_7">
+        <Label>EIPD_OUTPUTS</Label>
+        <Access>Q</Access>
+        <DataType>EIPD_IO_ARRAY</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>Ethernet/IP / EIPD_OUTPUTS</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="15f51bbf-e345-435b-be66-66037706fb7b">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="6d1b591a-0c5d-435e-9d7f-f15586a31881" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>EIPD_VALID_DATA_CYCLE</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.EIPD_VALID_DATA_CYCLE</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="2" ObjectId="/PDList/PD[@uid=eip003]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_7">
+        <Label>EIPD_VALID_DATA_CYCLE</Label>
+        <Access>I</Access>
+        <DataType>Boolean</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>Ethernet/IP / EIPD_VALID_DATA_CYCLE</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="d8993079-2be0-486e-822e-49987817cde2">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="7c386bef-0870-4bac-8cad-3b8a37212001" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>EIPD_PEER_IDLE</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.EIPD_PEER_IDLE</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="3" ObjectId="/PDList/PD[@uid=eip004]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_7">
+        <Label>EIPD_PEER_IDLE</Label>
+        <Access>I</Access>
+        <DataType>Boolean</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>Ethernet/IP / EIPD_PEER_IDLE</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="d2d42752-7083-4fce-b7e1-a47cb78286ba">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="f467c5b5-68ed-4093-8478-cda82d22b400" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>EIPD_PEER_RUN</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.EIPD_PEER_RUN</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="4" ObjectId="/PDList/PD[@uid=eip005]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_7">
+        <Label>EIPD_PEER_RUN</Label>
+        <Access>I</Access>
+        <DataType>Boolean</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>Ethernet/IP / EIPD_PEER_RUN</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="2be6bf5f-6326-4f22-8c17-14a29de77a22">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="db630005-8bdb-4bba-849e-b92dd9ef16e6" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>EIPD_OUTPUTS_LENGTH</Name>
+        <Usage>Global</Usage>
+        <DataType>WORD</DataType>
+        <Address />
+        <InitValue>WORD#16#0</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.EIPD_OUTPUTS_LENGTH</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="5" ObjectId="/PDList/PD[@uid=eip006]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_7">
+        <Label>EIPD_OUTPUTS_LENGTH</Label>
+        <Access>I</Access>
+        <DataType>Bitstring16</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>Ethernet/IP / EIPD_OUTPUTS_LENGTH</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="65cff326-a1b4-4462-8121-1aca022abadf">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="91035257-58ac-46af-86ea-bcdd9f576150" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>EIPD_INPUTS_LENGTH</Name>
+        <Usage>Global</Usage>
+        <DataType>WORD</DataType>
+        <Address />
+        <InitValue>WORD#16#0</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.EIPD_INPUTS_LENGTH</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="6" ObjectId="/PDList/PD[@uid=eip007]" SourceId="b84580d7-61ea-48ec-9861-abe43adbd376.L7_7">
+        <Label>EIPD_INPUTS_LENGTH</Label>
+        <Access>I</Access>
+        <DataType>Bitstring16</DataType>
+        <Offset />
+        <IsSafe>False</IsSafe>
+        <DisplayName>Ethernet/IP / EIPD_INPUTS_LENGTH</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="005d051e-b747-4264-9f18-c21c38b4fbf9">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="InPort" ObjectId="/PDList/PD[@uid=iodpdout]" SourceId="e0824e40-3937-4640-a92f-0b026b52a637">
+        <Name>~DO8</Name>
+        <DataType>Bitstring8</DataType>
+        <PortDataTypeDomain>Fdcml</PortDataTypeDomain>
+        <PortDataType>Bitstring8</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <ComponentInstance>Arp.Io.AxlC</ComponentInstance>
+        <Program>Arp.Io.AxlC</Program>
+        <Offset>1.0</Offset>
+        <NodeId>0</NodeId>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / dio-1 / ~DO8</DisplayName>
+      </Role>
+    </Datum>
+    <Datum Uuid="5fc6be6c-b402-4c95-be91-c8d7c8016bc4">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="InPort" ObjectId="/PDList/PD[@uid=io8]" SourceId="e0824e40-3937-4640-a92f-0b026b52a637">
+        <Name>OUT00</Name>
+        <DataType>BOOL</DataType>
+        <PortDataTypeDomain>Fdcml</PortDataTypeDomain>
+        <PortDataType>BOOL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <ComponentInstance>Arp.Io.AxlC</ComponentInstance>
+        <Program>Arp.Io.AxlC</Program>
+        <Offset>1.0</Offset>
+        <NodeId>0</NodeId>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / dio-1 / OUT00</DisplayName>
+      </Role>
+    </Datum>
+    <Datum Uuid="327b92ff-8711-471b-9bd9-b934a78be34e">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="InPort" ObjectId="/PDList/PD[@uid=io9]" SourceId="e0824e40-3937-4640-a92f-0b026b52a637">
+        <Name>OUT01</Name>
+        <DataType>BOOL</DataType>
+        <PortDataTypeDomain>Fdcml</PortDataTypeDomain>
+        <PortDataType>BOOL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <ComponentInstance>Arp.Io.AxlC</ComponentInstance>
+        <Program>Arp.Io.AxlC</Program>
+        <Offset>1.1</Offset>
+        <NodeId>0</NodeId>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / dio-1 / OUT01</DisplayName>
+      </Role>
+    </Datum>
+    <Datum Uuid="03cb9b63-9d4c-4fc6-8718-a63d2d8927fa">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="InPort" ObjectId="/PDList/PD[@uid=io10]" SourceId="e0824e40-3937-4640-a92f-0b026b52a637">
+        <Name>OUT02</Name>
+        <DataType>BOOL</DataType>
+        <PortDataTypeDomain>Fdcml</PortDataTypeDomain>
+        <PortDataType>BOOL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <ComponentInstance>Arp.Io.AxlC</ComponentInstance>
+        <Program>Arp.Io.AxlC</Program>
+        <Offset>1.2</Offset>
+        <NodeId>0</NodeId>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / dio-1 / OUT02</DisplayName>
+      </Role>
+    </Datum>
+    <Datum Uuid="20e9d9e1-fd53-4f38-994d-0467097cafd0">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="InPort" ObjectId="/PDList/PD[@uid=io11]" SourceId="e0824e40-3937-4640-a92f-0b026b52a637">
+        <Name>OUT03</Name>
+        <DataType>BOOL</DataType>
+        <PortDataTypeDomain>Fdcml</PortDataTypeDomain>
+        <PortDataType>BOOL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <ComponentInstance>Arp.Io.AxlC</ComponentInstance>
+        <Program>Arp.Io.AxlC</Program>
+        <Offset>1.3</Offset>
+        <NodeId>0</NodeId>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / dio-1 / OUT03</DisplayName>
+      </Role>
+    </Datum>
+    <Datum Uuid="613ec796-1442-4dbf-bdd8-810970cab622">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="InPort" ObjectId="/PDList/PD[@uid=io12]" SourceId="e0824e40-3937-4640-a92f-0b026b52a637">
+        <Name>OUT04</Name>
+        <DataType>BOOL</DataType>
+        <PortDataTypeDomain>Fdcml</PortDataTypeDomain>
+        <PortDataType>BOOL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <ComponentInstance>Arp.Io.AxlC</ComponentInstance>
+        <Program>Arp.Io.AxlC</Program>
+        <Offset>1.4</Offset>
+        <NodeId>0</NodeId>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / dio-1 / OUT04</DisplayName>
+      </Role>
+    </Datum>
+    <Datum Uuid="f141cd66-dc80-4476-88fc-3f98e6124d5d">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="InPort" ObjectId="/PDList/PD[@uid=io13]" SourceId="e0824e40-3937-4640-a92f-0b026b52a637">
+        <Name>OUT05</Name>
+        <DataType>BOOL</DataType>
+        <PortDataTypeDomain>Fdcml</PortDataTypeDomain>
+        <PortDataType>BOOL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <ComponentInstance>Arp.Io.AxlC</ComponentInstance>
+        <Program>Arp.Io.AxlC</Program>
+        <Offset>1.5</Offset>
+        <NodeId>0</NodeId>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / dio-1 / OUT05</DisplayName>
+      </Role>
+    </Datum>
+    <Datum Uuid="db6f5def-3c2b-4da9-a82a-9061705bdf71">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="InPort" ObjectId="/PDList/PD[@uid=io14]" SourceId="e0824e40-3937-4640-a92f-0b026b52a637">
+        <Name>OUT06</Name>
+        <DataType>BOOL</DataType>
+        <PortDataTypeDomain>Fdcml</PortDataTypeDomain>
+        <PortDataType>BOOL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <ComponentInstance>Arp.Io.AxlC</ComponentInstance>
+        <Program>Arp.Io.AxlC</Program>
+        <Offset>1.6</Offset>
+        <NodeId>0</NodeId>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / dio-1 / OUT06</DisplayName>
+      </Role>
+    </Datum>
+    <Datum Uuid="47d35422-1de7-4ca6-8b31-e6908ba1254b">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="InPort" ObjectId="/PDList/PD[@uid=io15]" SourceId="e0824e40-3937-4640-a92f-0b026b52a637">
+        <Name>OUT07</Name>
+        <DataType>BOOL</DataType>
+        <PortDataTypeDomain>Fdcml</PortDataTypeDomain>
+        <PortDataType>BOOL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <ComponentInstance>Arp.Io.AxlC</ComponentInstance>
+        <Program>Arp.Io.AxlC</Program>
+        <Offset>1.7</Offset>
+        <NodeId>0</NodeId>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / dio-1 / OUT07</DisplayName>
+      </Role>
+    </Datum>
+    <Datum Uuid="cc027515-e1c0-4472-90c3-2a8374edaf5d">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="OutPort" ObjectId="/PDList/PD[@uid=iodpdin]" SourceId="e0824e40-3937-4640-a92f-0b026b52a637">
+        <Name>~DI8</Name>
+        <DataType>Bitstring8</DataType>
+        <PortDataTypeDomain>Fdcml</PortDataTypeDomain>
+        <PortDataType>Bitstring8</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <ComponentInstance>Arp.Io.AxlC</ComponentInstance>
+        <Program>Arp.Io.AxlC</Program>
+        <Offset>1.0</Offset>
+        <NodeId>0</NodeId>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / dio-1 / ~DI8</DisplayName>
+      </Role>
+    </Datum>
+    <Datum Uuid="4123c4e5-1d92-4cd2-bc04-f4b8400b7e7d">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="OutPort" ObjectId="/PDList/PD[@uid=io0]" SourceId="e0824e40-3937-4640-a92f-0b026b52a637">
+        <Name>IN00</Name>
+        <DataType>BOOL</DataType>
+        <PortDataTypeDomain>Fdcml</PortDataTypeDomain>
+        <PortDataType>BOOL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <ComponentInstance>Arp.Io.AxlC</ComponentInstance>
+        <Program>Arp.Io.AxlC</Program>
+        <Offset>1.0</Offset>
+        <NodeId>0</NodeId>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / dio-1 / IN00</DisplayName>
+      </Role>
+    </Datum>
+    <Datum Uuid="b38f6df0-5aff-4cd2-8dbd-1195518da7bd">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="OutPort" ObjectId="/PDList/PD[@uid=io1]" SourceId="e0824e40-3937-4640-a92f-0b026b52a637">
+        <Name>IN01</Name>
+        <DataType>BOOL</DataType>
+        <PortDataTypeDomain>Fdcml</PortDataTypeDomain>
+        <PortDataType>BOOL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <ComponentInstance>Arp.Io.AxlC</ComponentInstance>
+        <Program>Arp.Io.AxlC</Program>
+        <Offset>1.1</Offset>
+        <NodeId>0</NodeId>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / dio-1 / IN01</DisplayName>
+      </Role>
+    </Datum>
+    <Datum Uuid="d1bf721c-6804-40cc-b2d9-13093f9ff0d8">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="OutPort" ObjectId="/PDList/PD[@uid=io2]" SourceId="e0824e40-3937-4640-a92f-0b026b52a637">
+        <Name>IN02</Name>
+        <DataType>BOOL</DataType>
+        <PortDataTypeDomain>Fdcml</PortDataTypeDomain>
+        <PortDataType>BOOL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <ComponentInstance>Arp.Io.AxlC</ComponentInstance>
+        <Program>Arp.Io.AxlC</Program>
+        <Offset>1.2</Offset>
+        <NodeId>0</NodeId>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / dio-1 / IN02</DisplayName>
+      </Role>
+    </Datum>
+    <Datum Uuid="79ac1476-c7f0-44ef-9a4f-1feceb4edf51">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="OutPort" ObjectId="/PDList/PD[@uid=io3]" SourceId="e0824e40-3937-4640-a92f-0b026b52a637">
+        <Name>IN03</Name>
+        <DataType>BOOL</DataType>
+        <PortDataTypeDomain>Fdcml</PortDataTypeDomain>
+        <PortDataType>BOOL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <ComponentInstance>Arp.Io.AxlC</ComponentInstance>
+        <Program>Arp.Io.AxlC</Program>
+        <Offset>1.3</Offset>
+        <NodeId>0</NodeId>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / dio-1 / IN03</DisplayName>
+      </Role>
+    </Datum>
+    <Datum Uuid="93884483-bad0-496d-aa7e-1c1b60b51498">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="OutPort" ObjectId="/PDList/PD[@uid=io4]" SourceId="e0824e40-3937-4640-a92f-0b026b52a637">
+        <Name>IN04</Name>
+        <DataType>BOOL</DataType>
+        <PortDataTypeDomain>Fdcml</PortDataTypeDomain>
+        <PortDataType>BOOL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <ComponentInstance>Arp.Io.AxlC</ComponentInstance>
+        <Program>Arp.Io.AxlC</Program>
+        <Offset>1.4</Offset>
+        <NodeId>0</NodeId>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / dio-1 / IN04</DisplayName>
+      </Role>
+    </Datum>
+    <Datum Uuid="88f42542-557a-49d0-bef2-f9200ec24b43">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="OutPort" ObjectId="/PDList/PD[@uid=io5]" SourceId="e0824e40-3937-4640-a92f-0b026b52a637">
+        <Name>IN05</Name>
+        <DataType>BOOL</DataType>
+        <PortDataTypeDomain>Fdcml</PortDataTypeDomain>
+        <PortDataType>BOOL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <ComponentInstance>Arp.Io.AxlC</ComponentInstance>
+        <Program>Arp.Io.AxlC</Program>
+        <Offset>1.5</Offset>
+        <NodeId>0</NodeId>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / dio-1 / IN05</DisplayName>
+      </Role>
+    </Datum>
+    <Datum Uuid="fa54fd89-1b95-45f4-8b77-4c8db515bc3f">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="OutPort" ObjectId="/PDList/PD[@uid=io6]" SourceId="e0824e40-3937-4640-a92f-0b026b52a637">
+        <Name>IN06</Name>
+        <DataType>BOOL</DataType>
+        <PortDataTypeDomain>Fdcml</PortDataTypeDomain>
+        <PortDataType>BOOL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <ComponentInstance>Arp.Io.AxlC</ComponentInstance>
+        <Program>Arp.Io.AxlC</Program>
+        <Offset>1.6</Offset>
+        <NodeId>0</NodeId>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / dio-1 / IN06</DisplayName>
+      </Role>
+    </Datum>
+    <Datum Uuid="dfc439d9-15ad-40bb-80aa-cdd67c7a138b">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="OutPort" ObjectId="/PDList/PD[@uid=io7]" SourceId="e0824e40-3937-4640-a92f-0b026b52a637">
+        <Name>IN07</Name>
+        <DataType>BOOL</DataType>
+        <PortDataTypeDomain>Fdcml</PortDataTypeDomain>
+        <PortDataType>BOOL</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <ComponentInstance>Arp.Io.AxlC</ComponentInstance>
+        <Program>Arp.Io.AxlC</Program>
+        <Offset>1.7</Offset>
+        <NodeId>0</NodeId>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / dio-1 / IN07</DisplayName>
+      </Role>
+    </Datum>
+    <Datum Uuid="ef5af593-c966-4348-a8cb-7d8638084015">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="InPort" ObjectId="/PDList/PD[@uid=io2]" SourceId="a62274c5-682f-4173-96c3-b365764f145e">
+        <Name>~AQ32</Name>
+        <DataType>Bitstring32</DataType>
+        <PortDataTypeDomain>Fdcml</PortDataTypeDomain>
+        <PortDataType>Bitstring32</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <ComponentInstance>Arp.Io.AxlC</ComponentInstance>
+        <Program>Arp.Io.AxlC</Program>
+        <Offset>0.0</Offset>
+        <NodeId>1</NodeId>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / aio-1 / ~AQ32</DisplayName>
+      </Role>
+    </Datum>
+    <Datum Uuid="1587cf08-1f6f-4f4c-adba-9f0600e8948d">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="InPort" ObjectId="/PDList/PD[@uid=io3]" SourceId="a62274c5-682f-4173-96c3-b365764f145e">
+        <Name>OUT01</Name>
+        <DataType>Bitstring16</DataType>
+        <PortDataTypeDomain>Fdcml</PortDataTypeDomain>
+        <PortDataType>Bitstring16</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <ComponentInstance>Arp.Io.AxlC</ComponentInstance>
+        <Program>Arp.Io.AxlC</Program>
+        <Offset>0.0</Offset>
+        <NodeId>1</NodeId>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / aio-1 / OUT01</DisplayName>
+      </Role>
+    </Datum>
+    <Datum Uuid="6ed66d3e-60b4-41bc-9277-d4d9a22eb8a3">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="InPort" ObjectId="/PDList/PD[@uid=io4]" SourceId="a62274c5-682f-4173-96c3-b365764f145e">
+        <Name>OUT02</Name>
+        <DataType>Bitstring16</DataType>
+        <PortDataTypeDomain>Fdcml</PortDataTypeDomain>
+        <PortDataType>Bitstring16</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <ComponentInstance>Arp.Io.AxlC</ComponentInstance>
+        <Program>Arp.Io.AxlC</Program>
+        <Offset>2.0</Offset>
+        <NodeId>1</NodeId>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / aio-1 / OUT02</DisplayName>
+      </Role>
+    </Datum>
+    <Datum Uuid="5ea515a2-9d29-40fc-bb15-b85649b0a0f9">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="OutPort" ObjectId="/PDList/PD[@uid=iodpdin]" SourceId="a62274c5-682f-4173-96c3-b365764f145e">
+        <Name>~AI32</Name>
+        <DataType>Bitstring32</DataType>
+        <PortDataTypeDomain>Fdcml</PortDataTypeDomain>
+        <PortDataType>Bitstring32</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <ComponentInstance>Arp.Io.AxlC</ComponentInstance>
+        <Program>Arp.Io.AxlC</Program>
+        <Offset>0.0</Offset>
+        <NodeId>1</NodeId>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / aio-1 / ~AI32</DisplayName>
+      </Role>
+    </Datum>
+    <Datum Uuid="bd42a92d-fac3-4320-8d57-d6b902916a59">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="OutPort" ObjectId="/PDList/PD[@uid=io0]" SourceId="a62274c5-682f-4173-96c3-b365764f145e">
+        <Name>IN01</Name>
+        <DataType>Bitstring16</DataType>
+        <PortDataTypeDomain>Fdcml</PortDataTypeDomain>
+        <PortDataType>Bitstring16</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <ComponentInstance>Arp.Io.AxlC</ComponentInstance>
+        <Program>Arp.Io.AxlC</Program>
+        <Offset>0.0</Offset>
+        <NodeId>1</NodeId>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / aio-1 / IN01</DisplayName>
+      </Role>
+    </Datum>
+    <Datum Uuid="f243905e-d1dd-44fa-b5d3-7a5ca489caaf">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="OutPort" ObjectId="/PDList/PD[@uid=io1]" SourceId="a62274c5-682f-4173-96c3-b365764f145e">
+        <Name>IN02</Name>
+        <DataType>Bitstring16</DataType>
+        <PortDataTypeDomain>Fdcml</PortDataTypeDomain>
+        <PortDataType>Bitstring16</PortDataType>
+        <PortMultiplicity>1</PortMultiplicity>
+        <ComponentInstance>Arp.Io.AxlC</ComponentInstance>
+        <Program>Arp.Io.AxlC</Program>
+        <Offset>2.0</Offset>
+        <NodeId>1</NodeId>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / aio-1 / IN02</DisplayName>
+      </Role>
+    </Datum>
+    <Datum Uuid="7212037a-b211-4cea-af87-5710a3aad99e">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="b6311ab9-86c6-4283-b028-79469502d33e" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>I_1_IN00</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.I_1_IN00</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="2" ObjectId="/PDList/PD[@uid=io0]" SourceId="e0824e40-3937-4640-a92f-0b026b52a637">
+        <Label>IN00</Label>
+        <Access>I</Access>
+        <DataType>BOOL</DataType>
+        <Offset>1.0</Offset>
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / dio-1 / IN00</DisplayName>
+        <NodeId>0</NodeId>
+        <InputFrameId>0</InputFrameId>
+        <OutputFrameId>1</OutputFrameId>
+      </Role>
+    </Datum>
+    <Datum Uuid="81ab9b15-5888-4597-95e1-a943337bc77c">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="4f4a2e59-78bf-4dac-85e4-64f7e42692fe" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>I_1_IN01</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.I_1_IN01</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="3" ObjectId="/PDList/PD[@uid=io1]" SourceId="e0824e40-3937-4640-a92f-0b026b52a637">
+        <Label>IN01</Label>
+        <Access>I</Access>
+        <DataType>BOOL</DataType>
+        <Offset>1.1</Offset>
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / dio-1 / IN01</DisplayName>
+        <NodeId>0</NodeId>
+        <InputFrameId>0</InputFrameId>
+        <OutputFrameId>1</OutputFrameId>
+      </Role>
+    </Datum>
+    <Datum Uuid="927a89a4-9a94-4436-ab32-eccacf9e9ff0">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="55fba322-2d7f-4544-8619-a562811bb712" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>I_1_IN02</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.I_1_IN02</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="4" ObjectId="/PDList/PD[@uid=io2]" SourceId="e0824e40-3937-4640-a92f-0b026b52a637">
+        <Label>IN02</Label>
+        <Access>I</Access>
+        <DataType>BOOL</DataType>
+        <Offset>1.2</Offset>
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / dio-1 / IN02</DisplayName>
+        <NodeId>0</NodeId>
+        <InputFrameId>0</InputFrameId>
+        <OutputFrameId>1</OutputFrameId>
+      </Role>
+    </Datum>
+    <Datum Uuid="ad002384-db81-4edc-82d5-63e810c1b7ce">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="610a6f3d-d00f-4f7e-86fd-6974b6365038" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>I_1_IN03</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.I_1_IN03</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="5" ObjectId="/PDList/PD[@uid=io3]" SourceId="e0824e40-3937-4640-a92f-0b026b52a637">
+        <Label>IN03</Label>
+        <Access>I</Access>
+        <DataType>BOOL</DataType>
+        <Offset>1.3</Offset>
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / dio-1 / IN03</DisplayName>
+        <NodeId>0</NodeId>
+        <InputFrameId>0</InputFrameId>
+        <OutputFrameId>1</OutputFrameId>
+      </Role>
+    </Datum>
+    <Datum Uuid="11f8cc97-4b2c-4bae-920a-87114869b5d0">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="4ab6f592-3005-4c74-bfc3-094dc7d6d0e7" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>I_1_IN04</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.I_1_IN04</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="6" ObjectId="/PDList/PD[@uid=io4]" SourceId="e0824e40-3937-4640-a92f-0b026b52a637">
+        <Label>IN04</Label>
+        <Access>I</Access>
+        <DataType>BOOL</DataType>
+        <Offset>1.4</Offset>
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / dio-1 / IN04</DisplayName>
+        <NodeId>0</NodeId>
+        <InputFrameId>0</InputFrameId>
+        <OutputFrameId>1</OutputFrameId>
+      </Role>
+    </Datum>
+    <Datum Uuid="5d12bf92-c8a3-4023-a348-a7d1fd8d5357">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="81bb1d45-796d-4c6a-9080-458a01d0361a" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>I_1_IN05</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.I_1_IN05</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="7" ObjectId="/PDList/PD[@uid=io5]" SourceId="e0824e40-3937-4640-a92f-0b026b52a637">
+        <Label>IN05</Label>
+        <Access>I</Access>
+        <DataType>BOOL</DataType>
+        <Offset>1.5</Offset>
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / dio-1 / IN05</DisplayName>
+        <NodeId>0</NodeId>
+        <InputFrameId>0</InputFrameId>
+        <OutputFrameId>1</OutputFrameId>
+      </Role>
+    </Datum>
+    <Datum Uuid="73e5c4ae-ae24-45a6-b1d5-185a371f452b">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="d38a1fdc-82a9-4381-8043-00aea3722964" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>I_1_IN06</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.I_1_IN06</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="8" ObjectId="/PDList/PD[@uid=io6]" SourceId="e0824e40-3937-4640-a92f-0b026b52a637">
+        <Label>IN06</Label>
+        <Access>I</Access>
+        <DataType>BOOL</DataType>
+        <Offset>1.6</Offset>
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / dio-1 / IN06</DisplayName>
+        <NodeId>0</NodeId>
+        <InputFrameId>0</InputFrameId>
+        <OutputFrameId>1</OutputFrameId>
+      </Role>
+    </Datum>
+    <Datum Uuid="aed8120b-683a-415d-a261-ff5080530213">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="b6b32538-0e69-4a18-9157-1fd6287ac709" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>I_1_IN07</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.I_1_IN07</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="9" ObjectId="/PDList/PD[@uid=io7]" SourceId="e0824e40-3937-4640-a92f-0b026b52a637">
+        <Label>IN07</Label>
+        <Access>I</Access>
+        <DataType>BOOL</DataType>
+        <Offset>1.7</Offset>
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / dio-1 / IN07</DisplayName>
+        <NodeId>0</NodeId>
+        <InputFrameId>0</InputFrameId>
+        <OutputFrameId>1</OutputFrameId>
+      </Role>
+    </Datum>
+    <Datum Uuid="c0616258-c0e3-4b46-a296-817885e08e8d">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="11e64d13-15b2-40ab-ba0f-50fcf9dba25c" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>Q_1_OUT00</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.Q_1_OUT00</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="10" ObjectId="/PDList/PD[@uid=io8]" SourceId="e0824e40-3937-4640-a92f-0b026b52a637">
+        <Label>OUT00</Label>
+        <Access>Q</Access>
+        <DataType>BOOL</DataType>
+        <Offset>1.0</Offset>
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / dio-1 / OUT00</DisplayName>
+        <NodeId>0</NodeId>
+        <InputFrameId>0</InputFrameId>
+        <OutputFrameId>1</OutputFrameId>
+      </Role>
+    </Datum>
+    <Datum Uuid="886e787d-2b1f-4eb0-94c9-513d5e382205">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="22f4c7d8-d3a1-4d53-abd3-a254a74b18de" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>Q_1_OUT01</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.Q_1_OUT01</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="11" ObjectId="/PDList/PD[@uid=io9]" SourceId="e0824e40-3937-4640-a92f-0b026b52a637">
+        <Label>OUT01</Label>
+        <Access>Q</Access>
+        <DataType>BOOL</DataType>
+        <Offset>1.1</Offset>
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / dio-1 / OUT01</DisplayName>
+        <NodeId>0</NodeId>
+        <InputFrameId>0</InputFrameId>
+        <OutputFrameId>1</OutputFrameId>
+      </Role>
+    </Datum>
+    <Datum Uuid="e3b608f2-4abd-4792-9f1b-43df801b458d">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="0b06efb4-2a05-4992-8770-818649431f0b" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>Q_1_OUT02</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.Q_1_OUT02</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="12" ObjectId="/PDList/PD[@uid=io10]" SourceId="e0824e40-3937-4640-a92f-0b026b52a637">
+        <Label>OUT02</Label>
+        <Access>Q</Access>
+        <DataType>BOOL</DataType>
+        <Offset>1.2</Offset>
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / dio-1 / OUT02</DisplayName>
+        <NodeId>0</NodeId>
+        <InputFrameId>0</InputFrameId>
+        <OutputFrameId>1</OutputFrameId>
+      </Role>
+    </Datum>
+    <Datum Uuid="2187d94a-219b-426f-ae19-a0d7b9e7aa77">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="9a32c220-a975-4440-a29b-cc04c3d470b3" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>Q_1_OUT03</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.Q_1_OUT03</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="13" ObjectId="/PDList/PD[@uid=io11]" SourceId="e0824e40-3937-4640-a92f-0b026b52a637">
+        <Label>OUT03</Label>
+        <Access>Q</Access>
+        <DataType>BOOL</DataType>
+        <Offset>1.3</Offset>
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / dio-1 / OUT03</DisplayName>
+        <NodeId>0</NodeId>
+        <InputFrameId>0</InputFrameId>
+        <OutputFrameId>1</OutputFrameId>
+      </Role>
+    </Datum>
+    <Datum Uuid="8ba32522-c5e7-4ec8-bcfb-3469eef13cdc">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="47516174-b885-43ff-8809-9b2ee899a585" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>Q_1_OUT04</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.Q_1_OUT04</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="14" ObjectId="/PDList/PD[@uid=io12]" SourceId="e0824e40-3937-4640-a92f-0b026b52a637">
+        <Label>OUT04</Label>
+        <Access>Q</Access>
+        <DataType>BOOL</DataType>
+        <Offset>1.4</Offset>
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / dio-1 / OUT04</DisplayName>
+        <NodeId>0</NodeId>
+        <InputFrameId>0</InputFrameId>
+        <OutputFrameId>1</OutputFrameId>
+      </Role>
+    </Datum>
+    <Datum Uuid="efbc1d07-692b-4ece-8c65-a1e82ed95391">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="3aded28d-dc87-4d2b-97df-5941c346a1fe" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>Q_1_OUT05</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.Q_1_OUT05</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="15" ObjectId="/PDList/PD[@uid=io13]" SourceId="e0824e40-3937-4640-a92f-0b026b52a637">
+        <Label>OUT05</Label>
+        <Access>Q</Access>
+        <DataType>BOOL</DataType>
+        <Offset>1.5</Offset>
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / dio-1 / OUT05</DisplayName>
+        <NodeId>0</NodeId>
+        <InputFrameId>0</InputFrameId>
+        <OutputFrameId>1</OutputFrameId>
+      </Role>
+    </Datum>
+    <Datum Uuid="adc6dfc0-4105-4b32-9f47-28f2f50557e1">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="70d7670e-59e9-45ef-9572-efe685d95123" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>Q_1_OUT06</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.Q_1_OUT06</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="16" ObjectId="/PDList/PD[@uid=io14]" SourceId="e0824e40-3937-4640-a92f-0b026b52a637">
+        <Label>OUT06</Label>
+        <Access>Q</Access>
+        <DataType>BOOL</DataType>
+        <Offset>1.6</Offset>
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / dio-1 / OUT06</DisplayName>
+        <NodeId>0</NodeId>
+        <InputFrameId>0</InputFrameId>
+        <OutputFrameId>1</OutputFrameId>
+      </Role>
+    </Datum>
+    <Datum Uuid="1fa19a0e-137c-4de3-a865-9ffba1bfc8ad">
+      <FunctionText />
+      <Comment />
+      <Role TypeName="Variable" ObjectId="c5847332-4e4c-4426-a7b7-0e9cb28e75b8" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75">
+        <Name>Q_1_OUT07</Name>
+        <Usage>Global</Usage>
+        <DataType>BOOL</DataType>
+        <Address />
+        <InitValue>FALSE</InitValue>
+        <IsRetain>False</IsRetain>
+        <IsOpc>False</IsOpc>
+        <IsHmi>False</IsHmi>
+        <IsProficloud>False</IsProficloud>
+        <Comment />
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / PLC.Q_1_OUT07</DisplayName>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="17" ObjectId="/PDList/PD[@uid=io15]" SourceId="e0824e40-3937-4640-a92f-0b026b52a637">
+        <Label>OUT07</Label>
+        <Access>Q</Access>
+        <DataType>BOOL</DataType>
+        <Offset>1.7</Offset>
+        <IsSafe>False</IsSafe>
+        <DisplayName>axc-f-2152-plcnext-datalogger-web-app / dio-1 / OUT07</DisplayName>
+        <NodeId>0</NodeId>
+        <InputFrameId>0</InputFrameId>
+        <OutputFrameId>1</OutputFrameId>
+      </Role>
+    </Datum>
+    <RoleGroupList RoleTypeName="Variable">
+      <RoleGroup SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75" ObjectId="fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24" DisplayName="Default" IsReadOnly="False">
+        <RoleDatumUuid>7212037a-b211-4cea-af87-5710a3aad99e</RoleDatumUuid>
+        <RoleDatumUuid>81ab9b15-5888-4597-95e1-a943337bc77c</RoleDatumUuid>
+        <RoleDatumUuid>927a89a4-9a94-4436-ab32-eccacf9e9ff0</RoleDatumUuid>
+        <RoleDatumUuid>ad002384-db81-4edc-82d5-63e810c1b7ce</RoleDatumUuid>
+        <RoleDatumUuid>11f8cc97-4b2c-4bae-920a-87114869b5d0</RoleDatumUuid>
+        <RoleDatumUuid>5d12bf92-c8a3-4023-a348-a7d1fd8d5357</RoleDatumUuid>
+        <RoleDatumUuid>73e5c4ae-ae24-45a6-b1d5-185a371f452b</RoleDatumUuid>
+        <RoleDatumUuid>aed8120b-683a-415d-a261-ff5080530213</RoleDatumUuid>
+        <RoleDatumUuid>c0616258-c0e3-4b46-a296-817885e08e8d</RoleDatumUuid>
+        <RoleDatumUuid>886e787d-2b1f-4eb0-94c9-513d5e382205</RoleDatumUuid>
+        <RoleDatumUuid>e3b608f2-4abd-4792-9f1b-43df801b458d</RoleDatumUuid>
+        <RoleDatumUuid>2187d94a-219b-426f-ae19-a0d7b9e7aa77</RoleDatumUuid>
+        <RoleDatumUuid>8ba32522-c5e7-4ec8-bcfb-3469eef13cdc</RoleDatumUuid>
+        <RoleDatumUuid>efbc1d07-692b-4ece-8c65-a1e82ed95391</RoleDatumUuid>
+        <RoleDatumUuid>adc6dfc0-4105-4b32-9f47-28f2f50557e1</RoleDatumUuid>
+        <RoleDatumUuid>1fa19a0e-137c-4de3-a865-9ffba1bfc8ad</RoleDatumUuid>
+        <RoleDatumUuid>d6f2a945-ac06-4d44-ab1a-04781bb24b6e</RoleDatumUuid>
+        <RoleDatumUuid>aeba2bb0-c52e-43f5-801e-43f19e4d01ef</RoleDatumUuid>
+        <RoleDatumUuid>700953c1-7fdc-4673-a91c-ebed17ee1567</RoleDatumUuid>
+        <RoleDatumUuid>97bca94c-c3f9-4d85-a9e0-b4f7c7d7abcc</RoleDatumUuid>
+      </RoleGroup>
+      <RoleGroup SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/9c176e32-8058-4821-b2cd-c43fbd816f75" ObjectId="971398c9-e054-4349-a1d9-e00a1840c9f4" DisplayName="System Variables" IsReadOnly="True">
+        <RoleDatumUuid>ae807d18-40f0-4651-966c-6f4a5563fe17</RoleDatumUuid>
+        <RoleDatumUuid>b2e506b5-4e43-4341-a5f1-2b04e2cf0fc8</RoleDatumUuid>
+        <RoleDatumUuid>fe6f0710-0257-4801-b8df-e2490df12ecd</RoleDatumUuid>
+        <RoleDatumUuid>a46cf355-0298-4697-a781-e34295307a6f</RoleDatumUuid>
+        <RoleDatumUuid>ea80c21f-2ab8-4174-8705-83ce9c3f347f</RoleDatumUuid>
+        <RoleDatumUuid>453dc524-726f-4d74-bb90-fe6cd5d7db49</RoleDatumUuid>
+        <RoleDatumUuid>ad6b20cb-a783-4511-b0ec-f5c4847ea448</RoleDatumUuid>
+        <RoleDatumUuid>4fe76df1-d38d-4401-9499-18ce1dcc86c5</RoleDatumUuid>
+        <RoleDatumUuid>44a868a2-ec2b-4e0c-abd6-ef4d93b9f3ef</RoleDatumUuid>
+        <RoleDatumUuid>2e5f3914-6006-43a2-ac3e-5d6d98e949d1</RoleDatumUuid>
+        <RoleDatumUuid>84a1f344-5bc2-4fe3-94ef-7bcb573584df</RoleDatumUuid>
+        <RoleDatumUuid>82d2b4a1-69c0-42ca-a39f-85fbe754f8f2</RoleDatumUuid>
+        <RoleDatumUuid>e94f4aff-b669-43d2-a75e-417a559b95f7</RoleDatumUuid>
+        <RoleDatumUuid>7c64937b-172d-486d-9070-da3a76ce6eeb</RoleDatumUuid>
+        <RoleDatumUuid>761d3054-7bf2-410c-b9ef-d759d7516860</RoleDatumUuid>
+        <RoleDatumUuid>8cda5a17-62ba-4745-8715-251dc8a43b48</RoleDatumUuid>
+        <RoleDatumUuid>971bf69a-7d88-4b3f-bbaa-0bcebd110410</RoleDatumUuid>
+        <RoleDatumUuid>992715bb-1594-4f65-be5d-16082e044c67</RoleDatumUuid>
+        <RoleDatumUuid>eaf31e0c-6d1e-401f-832d-f6394207ad20</RoleDatumUuid>
+        <RoleDatumUuid>2f73cf55-d1d6-4283-a17f-ec89086df4d3</RoleDatumUuid>
+        <RoleDatumUuid>5985b134-d8c1-4a0f-8121-bdbc4bda409b</RoleDatumUuid>
+        <RoleDatumUuid>a1ec2a5e-ff93-46a9-91cd-98a48a3059b0</RoleDatumUuid>
+        <RoleDatumUuid>854e583c-2a72-41f9-af44-05b78adb3dae</RoleDatumUuid>
+        <RoleDatumUuid>62765bcc-12e0-4ee7-904c-c8a059d7384b</RoleDatumUuid>
+        <RoleDatumUuid>fecba4c5-bacd-42aa-bedb-34f9c5a946d3</RoleDatumUuid>
+        <RoleDatumUuid>06f9910e-36fe-4227-97c2-bd7012ad31bc</RoleDatumUuid>
+        <RoleDatumUuid>10ca3869-a68e-41de-ad04-253ab51ad3db</RoleDatumUuid>
+        <RoleDatumUuid>445dbc67-11fb-4ee3-8e76-1cfb24557564</RoleDatumUuid>
+        <RoleDatumUuid>ff1b6de6-0c92-4860-b74e-a12ab491e407</RoleDatumUuid>
+        <RoleDatumUuid>329e576e-cd01-4c36-8513-ed17b5205acf</RoleDatumUuid>
+        <RoleDatumUuid>7c40d2c8-938e-481d-b807-969b4737b18e</RoleDatumUuid>
+        <RoleDatumUuid>a40530ae-d70a-4155-8bd4-94776b2a8724</RoleDatumUuid>
+        <RoleDatumUuid>9be96f1b-360a-47d9-aa0a-8cc17cc72c17</RoleDatumUuid>
+        <RoleDatumUuid>d7c3d270-3bbd-4b4c-a3af-a52c00df211b</RoleDatumUuid>
+        <RoleDatumUuid>d2f05920-efb7-421e-9d23-f0ad329cbdc1</RoleDatumUuid>
+        <RoleDatumUuid>e43a9a43-3b79-4501-805c-341416cbf314</RoleDatumUuid>
+        <RoleDatumUuid>4dc55292-9e6d-4668-882a-0be2953e48be</RoleDatumUuid>
+        <RoleDatumUuid>86e1d7ad-7244-44b4-aab0-1f88f7db169a</RoleDatumUuid>
+        <RoleDatumUuid>46f989b9-2b49-41c7-a2a1-e6ff7fbcaf9d</RoleDatumUuid>
+        <RoleDatumUuid>9a63bd46-1a87-4835-9f54-36dcbc58a497</RoleDatumUuid>
+        <RoleDatumUuid>7fb15367-2f7d-43cc-b851-9666bc2d93fd</RoleDatumUuid>
+        <RoleDatumUuid>9d305870-ef62-443e-b4f7-9597b9d7fcb0</RoleDatumUuid>
+        <RoleDatumUuid>c8578976-c67e-4bc3-8570-5d032d21c66f</RoleDatumUuid>
+        <RoleDatumUuid>514c4196-d8c8-4816-a515-eef0bfded2ac</RoleDatumUuid>
+        <RoleDatumUuid>426883ca-4a33-4e62-9b3d-59435b44e7bf</RoleDatumUuid>
+        <RoleDatumUuid>1caa948f-8b6b-4c45-89e9-774507c125cd</RoleDatumUuid>
+        <RoleDatumUuid>6fea7671-704f-45d6-be4a-eaa2cdb6279a</RoleDatumUuid>
+        <RoleDatumUuid>86bf508d-2a43-4069-9e1f-f9402c133000</RoleDatumUuid>
+        <RoleDatumUuid>c0bd5c4f-aa78-4961-8fb5-bde4af950fc6</RoleDatumUuid>
+        <RoleDatumUuid>ef204237-fa98-434c-b91f-d17e200683cd</RoleDatumUuid>
+        <RoleDatumUuid>030cd920-e53a-4ae2-8657-f76524131aeb</RoleDatumUuid>
+        <RoleDatumUuid>bacb7935-8852-4173-a6c6-bad305088ec8</RoleDatumUuid>
+        <RoleDatumUuid>7ce3742a-f684-4913-a032-9a707654007a</RoleDatumUuid>
+        <RoleDatumUuid>bd258abb-5829-4b71-9a6c-d29148089a83</RoleDatumUuid>
+        <RoleDatumUuid>d5918e54-0745-4246-9107-d143d6256879</RoleDatumUuid>
+        <RoleDatumUuid>27f5af69-941a-489a-b8e7-d1d55fba9e0f</RoleDatumUuid>
+        <RoleDatumUuid>77142c55-72a3-45bc-8e70-11aec5297d6e</RoleDatumUuid>
+        <RoleDatumUuid>15f51bbf-e345-435b-be66-66037706fb7b</RoleDatumUuid>
+        <RoleDatumUuid>d8993079-2be0-486e-822e-49987817cde2</RoleDatumUuid>
+        <RoleDatumUuid>d2d42752-7083-4fce-b7e1-a47cb78286ba</RoleDatumUuid>
+        <RoleDatumUuid>2be6bf5f-6326-4f22-8c17-14a29de77a22</RoleDatumUuid>
+        <RoleDatumUuid>65cff326-a1b4-4462-8121-1aca022abadf</RoleDatumUuid>
+      </RoleGroup>
+    </RoleGroupList>
+    <RoleGroupList RoleTypeName="SafetyVariable" />
+  </DataList>
+</DataListDocument>
