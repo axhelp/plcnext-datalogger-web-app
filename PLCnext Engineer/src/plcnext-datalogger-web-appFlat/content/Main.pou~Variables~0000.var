@@ -1,4 +1,6 @@
 { CustomGroupDefinition('8d6732b7-2d8d-4a7a-9718-e0484195e817', 'I/O') }
+{ CustomGroupDefinition('5f151d86-8135-49e1-9b5f-199ed1ca2420', 'Local') }
+{ CustomGroupDefinition('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24', 'Instances') }
 
 VAR_EXTERNAL
     I_2_IN01 : WORD { CustomGroupReference('8d6732b7-2d8d-4a7a-9718-e0484195e817') } {Id('07a2529f-f922-46e6-bc37-7ce951a1906e')};
@@ -21,4 +23,10 @@ VAR_EXTERNAL
     Q_1_OUT05 : BOOL { CustomGroupReference('8d6732b7-2d8d-4a7a-9718-e0484195e817') } {Id('650af8ec-f453-442f-a011-d30be1c8ccd1')};
     Q_1_OUT06 : BOOL { CustomGroupReference('8d6732b7-2d8d-4a7a-9718-e0484195e817') } {Id('76bd8cb9-e938-41ad-a45f-f9f5b64c418d')};
     Q_1_OUT07 : BOOL { CustomGroupReference('8d6732b7-2d8d-4a7a-9718-e0484195e817') } {Id('864ffd76-d3ce-4953-a8e7-197ce56fe508')};
+END_VAR
+
+VAR
+    AlarmStateInput00 : ALM_STATE { CustomGroupReference('5f151d86-8135-49e1-9b5f-199ed1ca2420') } {Id('0a3e4371-e028-401d-9e3b-400d0d4343e8')};
+    ALM_REGISTER_NSTANCE : ALM_REGISTER { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('a2ba283a-e717-4456-8341-710169d62114')};
+    ALM_ALARM_INSTANCE : ALM_ALARM { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('eddb2c72-fd7d-41f8-b0e5-15f93e64178b')};
 END_VAR

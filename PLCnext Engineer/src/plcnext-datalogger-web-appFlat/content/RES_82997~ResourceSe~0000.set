@@ -9,6 +9,14 @@ RESOURCE PLC
     [
     ],
     CommunicationMetadata := 'UniqueId=TCP/IP;IsBackup=False',
+    DeviceDescription := 
+    (
+        MaxProgramSize := '8388608',
+        MaxDataSize := '16777208',
+        MaxRetainDataSize := '0',
+        MaxTaskPriority := '96',
+        Endianness := 'LittleEndian'
+    ),
     CommunicationType := 'TcpIp',
     CommunicationParameters := 'DLL socomm.dll -ip192.168.1.11 -p41100 -to2000',
     DownloadFiles := 
@@ -22,4 +30,3 @@ TASK Cyclic100 (INTERVAL := T#100ms, PRIORITY := 0) { Watchdog(T#100ms), Id('aac
 PROGRAM MainInstance WITH Cyclic100 : Main { Id('5a4da879-8343-4f8a-88da-ecf9afe03785') };
 
 END_RESOURCE
-URCE
