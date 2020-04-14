@@ -11,7 +11,6 @@ export const index = async (req: Request, res: Response) => {
     const limitInt = parseIntValue(`${limit}`, 100);
 
     if (!variableName) {
-        // return new Error(`'variable', 'from', 'to' are required`);
         return res.status(422).json({
             items: [],
             error: "'variableName' query parameter is required"
@@ -21,6 +20,7 @@ export const index = async (req: Request, res: Response) => {
     try {
         const db = await open({
             filename: "database-web-app.db",
+            mode: sqlite3.OPEN_READONLY,
             driver: sqlite3.cached.Database
         });
         const queryOptions = {
