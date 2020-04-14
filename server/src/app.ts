@@ -4,7 +4,7 @@ import bodyParser from "body-parser";
 import path from "path";
 
 // Controllers (route handlers)
-import * as homeController from "./controllers/home";
+import * as dataLoggerController from "./controllers/data-logger";
 
 // Create Express server
 const app = express();
@@ -20,7 +20,7 @@ app.use(
 );
 
 
-app.get("/", homeController.index);
+app.get("/data-logger", dataLoggerController.index);
 
 
 
