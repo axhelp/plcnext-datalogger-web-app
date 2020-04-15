@@ -1,0 +1,19 @@
+name: Build Docker image
+
+on:
+  push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      ‐ name: Build and push
+        uses: docker/build-push-action@v1
+        with:
+          username: konopkov
+          password: ${{secrets.GITHUB_TOKEN}}
+          registry: docker.pkg.github.com
+          repository: axhelp/plcnext-datalogger-web-app
+          tags: latest
