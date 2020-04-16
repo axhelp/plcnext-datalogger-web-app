@@ -38,8 +38,7 @@ jobs:
         if: success()
         run: |
           docker buildx build \
-            --output type=image,name=${{ steps.prepare.outputs.docker_image }},push=true \
+            --output type=image,name=docker.pkg.github.com/axhelp/plcnext-datalogger-web-app/plcnext-datalogger-web-app,push=true \
             --platform linux/arm/v7 \
-            --tag "${{ steps.prepare.outputs.docker_image }}:${{ steps.prepare.outputs.hash }}" \
-            --tag "${{ steps.prepare.outputs.docker_image }}:latest" \
+            --tag docker.pkg.github.com/axhelp/plcnext-datalogger-web-app/plcnext-datalogger-web-app:latest \
             --file ./server/Dockerfile ./server
