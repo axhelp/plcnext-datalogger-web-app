@@ -3,17 +3,28 @@ import TextInput from './TextInput';
 import Label from './Label';
 import {useTextInput} from '../hooks/use-text-input';
 import {Trend} from './Chart';
+import {TimeSeries} from "pondjs";
 
 interface DataLoggerPageProps {
     dataLoggerUrl: string
 }
+
+const buildPoints = (dataItems: any[], columnName: string) => {
+    const points = dataItems.map((dataItem) => {
+        const timeStamp = new Date(dataItem.Timestamp);
+        const value = dataItem[columnName];
+        return [timeStamp, value, value]
+    });
+    return points.sort((a, b) => a[0] - b[0]);
+};
+
 
 const DataLoggerPage = (props: DataLoggerPageProps) => {
     const {dataLoggerUrl} = props;
     const {value: variableNameValue, bind: bindVariableNameValue} = useTextInput('Arp.Plc.Eclr/I_2_IN01');
     const {value: fromValue, bind: bindFromValue} = useTextInput('2020-04-11');
     const {value: toValue, bind: bindToValue} = useTextInput('2020-04-18');
-    const [dataLoggerDataItems, setDataLoggerDataItems] = useState([]);
+    const [timeSeries, setTimeSeries] = useState();
 
     const handleSubmit = (evt: React.FormEvent) => {
         evt.preventDefault();
@@ -24,8 +35,20 @@ const DataLoggerPage = (props: DataLoggerPageProps) => {
                 return res.json()
             })
             .then((data) => {
-                console.log(data);
-                setDataLoggerDataItems(data.items)
+                if (data.items && data.items.length > 0) {
+                    const points = buildPoints(data.items, variableNameValue);
+
+                    const newTimeSeries = new TimeSeries({
+                        name: "Value",
+                        columns: ["time", "var1"],
+                        points: points
+                    });
+                    setTimeSeries(newTimeSeries)
+                }
+                else {
+                    setTimeSeries(null)
+                }
+
             })
             .catch((e) => {
                 console.log(e)
@@ -74,18 +97,12 @@ const DataLoggerPage = (props: DataLoggerPageProps) => {
                                 </button>
                             </div>
                         </form>
-                        <Trend
-                            data = {dataLoggerDataItems}
-                        />
-                        <ul>
                         {
-                            dataLoggerDataItems?.map((item: any) => (
-                                <li key={item.Timestamp}>
-                                    {`${item.Timestamp} - ${item[variableNameValue]}`}
-                                </li>
-                            ))
+                            timeSeries &&
+                            <Trend
+                                timeSeries = {timeSeries}
+                            />
                         }
-                        </ul>
                     </div>
                 </div>
             </div>

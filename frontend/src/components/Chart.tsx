@@ -43,20 +43,9 @@ const CrossHairs = (props: any) => {
         }
 };
 
-const buildPoints = (data: any) => {
-    return []
-};
 
 export const Trend = (props: any) => {
-    const {data} = props;
-
-    const points = buildPoints(data);
-
-    const timeSeries = new TimeSeries({
-        name: "Currency",
-        columns: ["time", "var1", "var2"],
-        points: points
-    });
+    const {timeSeries} = props;
 
     const initialState = {
         tracker: null,
@@ -73,19 +62,18 @@ export const Trend = (props: any) => {
 
     const style = styler([
         {key: "var1", color: "steelblue", width: 2},
-        {key: "var2", color: "#F68B24", width: 2}
     ]);
 
     const f = format("$,.2f");
+    const df = timeFormat('%d.%m.%Y %H:%M:%S');
     const range = state.timeRange;
 
-    let var2Value, var1Value;
+    let var1Value;
     if (state.tracker) {
         //@ts-ignore
         const index = state.timeSeries.bisect(state.tracker);
         const trackerEvent = state.timeSeries.at(index);
         var1Value = `${f(trackerEvent.get("var1"))}`;
-        var2Value = `${f(trackerEvent.get("var2"))}`;
     }
 
     return (
@@ -113,16 +101,17 @@ export const Trend = (props: any) => {
                             //@ts-ignore
                             minTime={state.timeSeries.range().begin()}
                             timeAxisAngledLabels={true}
-                            timeAxisHeight={65}
+                            timeAxisHeight={120}
                             enablePanZoom={true}
                             minDuration={1000 * 60 * 60 * 24 * 30}
+                            format={df}
                         >
                             <ChartRow height="400">
                                 <YAxis
                                     id="y"
-                                    label="Price ($)"
-                                    min={0.5}
-                                    max={1.5}
+                                    label="Value"
+                                    min={0}
+                                    max={30000}
                                     style={{
                                         ticks: {
                                             stroke: "#AAA",
@@ -134,14 +123,14 @@ export const Trend = (props: any) => {
                                     hideAxisLine
                                     width="60"
                                     type="linear"
-                                    format="$,.2f"
+                                    format="d"
                                 />
-                                <Charts>
+                                <Charts timeFormat={df}>
                                     <LineChart
                                         axis="y"
                                         breakLine={false}
                                         series={state.timeSeries}
-                                        columns={["var1", "var2"]}
+                                        columns={["var1"]}
                                         style={style}
                                         interpolation="curveBasis"
                                         //@ts-ignore
@@ -167,14 +156,13 @@ export const Trend = (props: any) => {
                             //@ts-ignore
                             highlight={state.highlight}
                             //@ts-ignore
-                            onHighlightChange={highlight => setState({highlight})}
+                            // onHighlightChange={highlight => setState({highlight})}
                             //@ts-ignore
                             selection={state.selection}
                             //@ts-ignore
-                            onSelectionChange={selection => setState({selection})}
+                            // onSelectionChange={selection => setState({selection})}
                             categories={[
                                 {key: "var1", label: "VAR1", value: var1Value},
-                                {key: "var2", label: "VAR2", value: var2Value}
                             ]}
                         />
                     </span>
