@@ -10,16 +10,35 @@ jobs:
       -
         name: Checkout
         uses: actions/checkout@v1
+
+      -
+        name: Prepare
+          if: success()
+          id: prepare
+          run: |
+            echo ::set-output name=docker_username::konopkov
+            echo ::set-output name=docker_image::docker.pkg.github.com/axhelp/plcnext-datalogger-web-app
+            echo ::set-output name=hash::${GITHUB_SHA}
+      -
+        name: Docker Login
+        if: success()
+        env:
+          DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+        run: |
+          echo "${DOCKER_PASSWORD}" | docker login --username "${{ steps.prepare.outputs.docker_username }}" --password-stdin docker.io
       -
         name: Set up Docker Buildx
+        if: success()
         id: buildx
         uses: crazy-max/ghaction-docker-buildx@v1
         with:
           version: latest
       -
-        name: Available platforms
-        run: echo ${{ steps.buildx.outputs.platforms }}
-      -
-        name: Run Buildx
+        name: Run Buildx with push
         run: |
-          docker buildx build --platform linux/arm/v7 --output "type=image,push=false" --file ./server/Dockerfile ./server
+          docker buildx build \
+            --output type=image,name=${{ steps.prepare.outputs.docker_image }},push=true \
+            --platform linux/arm/v7 \
+            --tag "${{ steps.prepare.outputs.docker_image }}:${{ steps.prepare.outputs.hash }}" \
+            --tag "${{ steps.prepare.outputs.docker_image }}:latest" \
+            --file ./server/Dockerfile ./server
