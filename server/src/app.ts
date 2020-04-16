@@ -1,6 +1,7 @@
 import express from "express";
-import compression from "compression";  // compresses requests
+import compression from "compression";
 import bodyParser from "body-parser";
+import cors from "cors";
 import path from "path";
 import {Config} from "./config";
 
@@ -14,6 +15,7 @@ const app = express();
 app.set("port", Config.webServer.port);
 app.use(compression());
 app.use(bodyParser.json());
+app.use(cors());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use(
