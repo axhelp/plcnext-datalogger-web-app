@@ -25,7 +25,7 @@ jobs:
         env:
           DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
         run: |
-          echo "${DOCKER_PASSWORD}" | docker login --username "${{ steps.prepare.outputs.docker_username }}" --password-stdin docker.io
+          docker login -u "${{ steps.prepare.outputs.docker_username }}" -p ${{secrets.GITHUB_TOKEN}} docker.pkg.github.com
       -
         name: Set up Docker Buildx
         if: success()
