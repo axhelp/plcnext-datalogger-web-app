@@ -16,16 +16,16 @@ jobs:
         if: success()
         id: prepare
         run: |
-          echo ::set-output name=docker_username::konopkov
-          echo ::set-output name=docker_image::docker.pkg.github.com/axhelp/plcnext-datalogger-web-app/plcnext-datalogger-web-app
+          echo ::set-output name=docker_image::axhelp/plcnext-datalogger-web-app
           echo ::set-output name=hash::${GITHUB_SHA}
       -
         name: Docker Login
         if: success()
         env:
+          DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
           DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
         run: |
-          docker login -u "${{ steps.prepare.outputs.docker_username }}" -p ${{secrets.GITHUB_TOKEN}} docker.pkg.github.com
+          docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASSWORD"
       -
         name: Set up Docker Buildx
         if: success()
@@ -38,7 +38,7 @@ jobs:
         if: success()
         run: |
           docker buildx build \
-            --output type=image,name=docker.pkg.github.com/axhelp/plcnext-datalogger-web-app/plcnext-datalogger-web-app,push=true \
+            --output type=image,name=axhelp/plcnext-datalogger-web-app,push=true \
             --platform linux/arm/v7 \
-            --tag docker.pkg.github.com/axhelp/plcnext-datalogger-web-app/plcnext-datalogger-web-app:latest \
+            --tag axhelp/plcnext-datalogger-web-app:latest \
             --file ./server/Dockerfile ./server

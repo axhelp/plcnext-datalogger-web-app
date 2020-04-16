@@ -63,6 +63,11 @@ chain basic_filter {
 
 - Run container
 ```
-balena-engine run -d --name=armhf-plcnext-datalogger-web-app -p 3000:3000 --volume /opt/plcnext/projects/plcnext-datalogger-web-app/:/usr/app/database/:ro --env DB_FILE_PATH=/usr/app/database/database-web-app.db armhf-plcnext-datalogger-web-app
+balena-engine run -d \
+    --name=plcnext-datalogger-web-app \
+    -p 3000:3000 \
+    --volume /opt/plcnext/projects/plcnext-datalogger-web-app/:/usr/app/database/:ro \
+    --env DB_FILE_PATH=/usr/app/database/database-web-app.db \
+    axhelp/plcnext-datalogger-web-app:latest
 ```
 
