@@ -2,6 +2,7 @@ import express from "express";
 import compression from "compression";  // compresses requests
 import bodyParser from "body-parser";
 import path from "path";
+import {Config} from "./config";
 
 // Controllers (route handlers)
 import * as dataLoggerController from "./controllers/data-logger";
@@ -10,7 +11,7 @@ import * as dataLoggerController from "./controllers/data-logger";
 const app = express();
 
 // Express configuration
-app.set("port", process.env.PORT || 3000);
+app.set("port", Config.webServer.port);
 app.use(compression());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));

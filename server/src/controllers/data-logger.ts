@@ -3,6 +3,7 @@ import sqlite3 from "sqlite3";
 import { open } from "sqlite";
 import { dataQuery } from "../database/queries";
 import { parseIntValue, parseDate, addMinutes } from "../util/parsers";
+import {Config} from "../config";
 
 
 export const index = async (req: Request, res: Response) => {
@@ -19,7 +20,7 @@ export const index = async (req: Request, res: Response) => {
 
     try {
         const db = await open({
-            filename: "database-web-app.db",
+            filename: Config.db.path,
             mode: sqlite3.OPEN_READONLY,
             driver: sqlite3.cached.Database
         });
