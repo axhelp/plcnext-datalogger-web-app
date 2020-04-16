@@ -1,19 +1,27 @@
-name: Build Docker image
+name: Build Docker image with Buildx
 
 on:
   push
 
 jobs:
-  build:
+  buildx:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      ‐ name: Build and push
-        uses: docker/build-push-action@v1
+      -
+        name: Checkout
+        uses: actions/checkout@v1
+      -
+        name: Set up Docker Buildx
+        id: buildx
+        uses: crazy-max/ghaction-docker-buildx@v1
         with:
-          username: konopkov
-          password: ${{secrets.GITHUB_TOKEN}}
-          registry: docker.pkg.github.com
-          repository: axhelp/plcnext-datalogger-web-app
-          tags: latest
+          version: latest
+      -
+        name: Available platforms
+        run: echo ${{ steps.buildx.outputs.platforms }}
+      -
+        name: Run Buildx
+        run: |
+          docker buildx build \
+            --platform linux/arm/v7 \
+            --output "type=image,push=false"
