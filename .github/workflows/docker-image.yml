@@ -22,7 +22,4 @@ jobs:
       -
         name: Run Buildx
         run: |
-          docker buildx build \
-            --platform linux/arm/v7 \
-            --output "type=image,push=false"
-            --file ./server/Dockerfile ./server
+          docker buildx build --platform linux/arm/v7 --output "type=image,push=false" --file ./server/Dockerfile ./server
