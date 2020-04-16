@@ -1,7 +1,8 @@
-import React from 'react';
+import React, {useState} from 'react';
 import TextInput from './TextInput';
 import Label from './Label';
 import {useTextInput} from '../hooks/use-text-input';
+import {Trend} from './Chart';
 
 interface DataLoggerPageProps {
     dataLoggerUrl: string
@@ -9,16 +10,22 @@ interface DataLoggerPageProps {
 
 const DataLoggerPage = (props: DataLoggerPageProps) => {
     const {dataLoggerUrl} = props;
-    const {value: fromValue, bind: bindFromValue} = useTextInput('');
-    const {value: toValue, bind: bindToValue} = useTextInput('');
+    const {value: variableNameValue, bind: bindVariableNameValue} = useTextInput('Arp.Plc.Eclr/I_2_IN01');
+    const {value: fromValue, bind: bindFromValue} = useTextInput('2020-04-11');
+    const {value: toValue, bind: bindToValue} = useTextInput('2020-04-18');
+    const [dataLoggerDataItems, setDataLoggerDataItems] = useState([]);
 
     const handleSubmit = (evt: React.FormEvent) => {
         evt.preventDefault();
 
-        const urlWithQuery = `${dataLoggerUrl}?variableName=Arp.Plc.Eclr/I_2_IN01&from="${fromValue}"&to="${toValue}"`;
+        const urlWithQuery = `${dataLoggerUrl}?variableName=${variableNameValue}&from="${fromValue}"&to="${toValue}"`;
         fetch(urlWithQuery)
             .then((res) => {
                 return res.json()
+            })
+            .then((data) => {
+                console.log(data);
+                setDataLoggerDataItems(data.items)
             })
             .catch((e) => {
                 console.log(e)
@@ -35,6 +42,13 @@ const DataLoggerPage = (props: DataLoggerPageProps) => {
                     <div className="pxc-f-gradbox">
                         <form onSubmit={handleSubmit}>
                             <TextInput
+                                label={`Variable Name`}
+                                placeholder={``}
+                                maxLength={63}
+                                name={`variable-name`}
+                                {...bindVariableNameValue}
+                            />
+                            <TextInput
                                 label={`From`}
                                 placeholder={``}
                                 maxLength={63}
@@ -42,7 +56,7 @@ const DataLoggerPage = (props: DataLoggerPageProps) => {
                                 {...bindFromValue}
                             />
                             <TextInput
-                                label={`From`}
+                                label={`To`}
                                 placeholder={``}
                                 maxLength={63}
                                 name={`to`}
@@ -60,6 +74,18 @@ const DataLoggerPage = (props: DataLoggerPageProps) => {
                                 </button>
                             </div>
                         </form>
+                        <Trend
+                            data = {dataLoggerDataItems}
+                        />
+                        <ul>
+                        {
+                            dataLoggerDataItems?.map((item: any) => (
+                                <li key={item.Timestamp}>
+                                    {`${item.Timestamp} - ${item[variableNameValue]}`}
+                                </li>
+                            ))
+                        }
+                        </ul>
                     </div>
                 </div>
             </div>
