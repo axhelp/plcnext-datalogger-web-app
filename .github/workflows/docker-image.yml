@@ -42,3 +42,4 @@ jobs:
             --platform linux/arm/v7 \
             --tag axhelp/plcnext-datalogger-web-app:latest \
             --file ./Dockerfile ./server
+            --no-cache

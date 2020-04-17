@@ -6,7 +6,7 @@ RUN npm run build
 
 FROM node:current as Builder-frontend
 WORKDIR /usr/app
-COPY ./frontend/ .
+COPY ./frontend .
 RUN npm ci
 RUN npm run build
 
