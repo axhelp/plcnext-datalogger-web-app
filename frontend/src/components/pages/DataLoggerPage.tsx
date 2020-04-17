@@ -1,11 +1,11 @@
 import React, {useState} from 'react';
-import TextInput from './TextInput';
-import Label from './Label';
-import {useTextInput} from '../hooks/use-text-input';
-import {Trend} from './Chart';
+import TextInput from '../common/TextInput';
+import Label from '../common/Label';
+import {useTextInput} from '../../hooks/use-text-input';
+import {Trend} from '../charts/Chart';
 import {TimeSeries} from "pondjs";
-import {useInterval} from "../hooks/use-interval";
-import {addMinutes} from "../helpers/utils";
+import {useInterval} from "../../hooks/use-interval";
+import {addMinutes} from "../../helpers/utils";
 
 interface DataLoggerPageProps {
     dataLoggerUrl: string

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 export interface MenuItemsGroup {
     id: string,
@@ -43,7 +44,12 @@ export const Menu = (props: MenuProps) => {
                             <ul className="c_menu_list" id="id_menu_security">
                                 {menuItemGroup.items?.map((menuItem) => {
                                     return <li key={menuItem.id}>
-                                        <a id={menuItem.id} href={menuItem.href}>{menuItem.name}</a>
+                                        <Link
+                                            id={menuItem.id}
+                                            to={menuItem.href}
+                                        >
+                                            {menuItem.name}
+                                        </Link>
                                     </li>
                                 })}
                             </ul>
