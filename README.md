@@ -72,9 +72,16 @@ balena-engine run -d \
     axhelp/plcnext-datalogger-web-app:latest
 ```
 
-- App update:
+- App update and clean unused images
 ```
+# Pull image from Docker Hub
 balena-engine pull axhelp/plcnext-datalogger-web-app:latest
+
+# Re-create container
+# (command from previous step)
+
+# Remove unused images and containers
+balena-engine system prune -a
 ```
 
 
