@@ -37,10 +37,8 @@ jobs:
         name: Run Buildx with push
         if: success()
         run: |
-          ls
           docker buildx build \
             --output type=image,name=axhelp/plcnext-datalogger-web-app,push=true \
             --platform linux/arm/v7 \
             --tag axhelp/plcnext-datalogger-web-app:latest \
-            --file ./Dockerfile ./server \
-            --no-cache
+            --file ./Dockerfile . \
