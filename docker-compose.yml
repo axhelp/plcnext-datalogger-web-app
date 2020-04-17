@@ -1,0 +1,18 @@
+version: '2'
+services:
+  nginx-proxy:
+    container_name: plcnext-datalogger-web-app
+    restart: always
+    image: docker.pkg.github.com/axhelp/plcnext-datalogger-web-app/plcnext-datalogger-web-app:latest
+    ports:
+      - 3000:3000
+    networks:
+      - default
+    volumes:
+      - type: volume
+        source: /opt/plcnext/projects/plcnext-datalogger-web-app
+        target: /usr/app/database
+        read_only: true
+
+networks:
+  default:

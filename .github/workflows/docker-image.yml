@@ -1,0 +1,44 @@
+name: Build Docker image with Buildx
+
+on:
+  push
+
+jobs:
+  buildx:
+    runs-on: ubuntu-latest
+    steps:
+      -
+        name: Checkout
+        uses: actions/checkout@v1
+
+      -
+        name: Prepare
+        if: success()
+        id: prepare
+        run: |
+          echo ::set-output name=docker_image::axhelp/plcnext-datalogger-web-app
+          echo ::set-output name=hash::${GITHUB_SHA}
+      -
+        name: Docker Login
+        if: success()
+        env:
+          DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
+          DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+        run: |
+          docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASSWORD"
+      -
+        name: Set up Docker Buildx
+        if: success()
+        id: buildx
+        uses: crazy-max/ghaction-docker-buildx@v1
+        with:
+          version: latest
+      -
+        name: Run Buildx with push
+        if: success()
+        run: |
+          docker buildx build \
+            --output type=image,name=axhelp/plcnext-datalogger-web-app,push=true \
+            --platform linux/arm/v7 \
+            --tag axhelp/plcnext-datalogger-web-app:latest \
+            --file ./Dockerfile . \
