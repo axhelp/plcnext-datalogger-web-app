@@ -53,7 +53,7 @@ export const Trend = (props: any) => {
     const [state, setState] = useState(initialState);
 
     const style = styler([
-        {key: "var1", color: "steelblue", width: 2},
+        {key: "var1", color: "0098a1", width: 3},
     ]);
 
     const f = format("$,.2f");
@@ -127,6 +127,7 @@ export const Trend = (props: any) => {
                                         interpolation="curveBasis"
                                         //@ts-ignore
                                         highlight={state.highlight}
+                                        smooth={true}
                                     />
                                     <CrossHairs
                                         //@ts-ignore
