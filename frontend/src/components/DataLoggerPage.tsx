@@ -22,8 +22,8 @@ const buildPoints = (dataItems: any[], columnName: string) => {
 const DataLoggerPage = (props: DataLoggerPageProps) => {
     const {dataLoggerUrl} = props;
     const {value: variableNameValue, bind: bindVariableNameValue} = useTextInput('Arp.Plc.Eclr/I_2_IN01');
-    const {value: fromValue, bind: bindFromValue} = useTextInput('2020-04-11');
-    const {value: toValue, bind: bindToValue} = useTextInput('2020-04-18');
+    const {value: fromValue, bind: bindFromValue} = useTextInput('2020-04-17T13:30:00');
+    const {value: toValue, bind: bindToValue} = useTextInput('2020-04-17T13:31:00');
     const [timeSeries, setTimeSeries] = useState();
 
     const handleSubmit = (evt: React.FormEvent) => {

@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-//@ts-ignore
 import {
     ChartContainer,
     ChartRow,
@@ -17,8 +16,6 @@ import {timeFormat} from 'd3-time-format';
 import {format} from "d3-format";
 import _ from "underscore";
 
-// Pond
-import {TimeSeries} from "pondjs";
 
 const CrossHairs = (props: any) => {
 
@@ -49,16 +46,11 @@ export const Trend = (props: any) => {
 
     const initialState = {
         tracker: null,
-        timeSeries: timeSeries,
-        //@ts-ignore
-        timeRange: timeSeries.range(),
         x: null,
         y: null
     };
 
-
     const [state, setState] = useState(initialState);
-
 
     const style = styler([
         {key: "var1", color: "steelblue", width: 2},
@@ -66,13 +58,13 @@ export const Trend = (props: any) => {
 
     const f = format("$,.2f");
     const df = timeFormat('%d.%m.%Y %H:%M:%S');
-    const range = state.timeRange;
+    const timeRange = timeSeries.range();
 
     let var1Value;
     if (state.tracker) {
         //@ts-ignore
         const index = state.timeSeries.bisect(state.tracker);
-        const trackerEvent = state.timeSeries.at(index);
+        const trackerEvent = timeSeries.at(index);
         var1Value = `${f(trackerEvent.get("var1"))}`;
     }
 
@@ -82,7 +74,7 @@ export const Trend = (props: any) => {
                 <div className="col-md-12">
                     <Resizable>
                         <ChartContainer
-                            timeRange={range}
+                            timeRange={timeRange}
                             timeAxisStyle={{
                                 ticks: {
                                     stroke: "#AAA",
@@ -97,9 +89,9 @@ export const Trend = (props: any) => {
                             showGrid={true}
                             paddingRight={100}
                             //@ts-ignore
-                            maxTime={state.timeSeries.range().end()}
+                            maxTime={timeSeries.range().end()}
                             //@ts-ignore
-                            minTime={state.timeSeries.range().begin()}
+                            minTime={timeSeries.range().begin()}
                             timeAxisAngledLabels={true}
                             timeAxisHeight={120}
                             enablePanZoom={true}
@@ -129,7 +121,7 @@ export const Trend = (props: any) => {
                                     <LineChart
                                         axis="y"
                                         breakLine={false}
-                                        series={state.timeSeries}
+                                        series={timeSeries}
                                         columns={["var1"]}
                                         style={style}
                                         interpolation="curveBasis"
