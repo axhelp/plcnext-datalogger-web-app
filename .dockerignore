@@ -1,6 +1,6 @@
-*/node_modules/*
+*/node_modules/
 .Dockerfile
 *.db
 */*.env
-frontend/build/*
-server/public/*
+frontend/build/
+server/public/
