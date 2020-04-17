@@ -41,5 +41,5 @@ jobs:
             --output type=image,name=axhelp/plcnext-datalogger-web-app,push=true \
             --platform linux/arm/v7 \
             --tag axhelp/plcnext-datalogger-web-app:latest \
-            --file ./Dockerfile ./server
+            --file ./Dockerfile ./server \
             --no-cache
