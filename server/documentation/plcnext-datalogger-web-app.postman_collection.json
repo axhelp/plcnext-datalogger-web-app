@@ -41,6 +41,35 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "notifications",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/notifications?from=\"2020-04-13\"&to=\"2020-04-14\"",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"notifications"
+					],
+					"query": [
+						{
+							"key": "from",
+							"value": "\"2020-04-13\""
+						},
+						{
+							"key": "to",
+							"value": "\"2020-04-14\""
+						}
+					]
+				}
+			},
+			"response": []
 		}
 	],
 	"protocolProfileBehavior": {}

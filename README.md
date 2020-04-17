@@ -68,7 +68,9 @@ balena-engine run -d \
     --restart=always \
     -p 3000:3000 \
     --volume /opt/plcnext/projects/plcnext-datalogger-web-app/:/usr/app/database/:ro \
-    --env DB_FILE_PATH=/usr/app/database/database-web-app.db \
+    --volume /opt/plcnext/logs/:/usr/app/logs/:ro \
+    --env DL_DB_FILE_PATH=/usr/app/database/database-web-app.db \
+    --env LOGS_DB_FILE_PATH=/usr/app/logs/default.sqlite \
     axhelp/plcnext-datalogger-web-app:latest
 ```
 

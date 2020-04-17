@@ -6,14 +6,14 @@ export const tablesNamesQuery = async (db: Database) => {
     return queryResult.map((row) => row.name);
 };
 
-interface GetDataQueryOptions {
+interface DataQueryOptions {
     limit: number;
     from: Date;
     to: Date;
     variableName: string;
 }
 
-export const dataQuery = async (db: Database, options: GetDataQueryOptions) => {
+export const dataQuery = async (db: Database, options: DataQueryOptions) => {
     const {limit, from, to, variableName} = options;
 
     const tablesNames = await tablesNamesQuery(db);
@@ -26,4 +26,15 @@ export const dataQuery = async (db: Database, options: GetDataQueryOptions) => {
     ).join(SqlStatements.UnionAll);
 
     return await db.all(unionSqlStatements);
+};
+
+interface NotificationsQueryOptions {
+    from: Date;
+    to: Date;
+}
+
+export const notificationsQuery = async (db: Database, options: NotificationsQueryOptions) => {
+    const {from, to} = options;
+
+    return await db.all(SqlStatements.Notifications(from, to));
 };

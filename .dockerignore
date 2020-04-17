@@ -1,6 +1,8 @@
 */node_modules/
 .Dockerfile
 *.db
+*.sqlite
+databases/
 */*.env
 frontend/build/
 server/public/

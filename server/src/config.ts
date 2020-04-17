@@ -8,19 +8,21 @@ dotenv.config({
 
 export interface ApplicationConfig {
     db: {
-        path: string;
+        dataLoggerDbPath: string,
+        logsDbPath: string,
     };
     webServer: {
-        port: number;
+        port: number
     };
     env: {
-        NODE_ENV: string;
+        NODE_ENV: string
     };
 }
 
 export const Config: ApplicationConfig = {
     db: {
-        path: process.env.DB_FILE_PATH,
+        dataLoggerDbPath: process.env.DL_DB_FILE_PATH,
+        logsDbPath: process.env.LOGS_DB_FILE_PATH
     },
     webServer: {
         port: parseInt(process.env.PORT) || 3000

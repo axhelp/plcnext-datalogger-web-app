@@ -39,9 +39,20 @@ const UnionAll = `
 UNION ALL
 `;
 
+const Notifications = (
+    from: Date,
+    to: Date
+) => {
+    return `
+SELECT * FROM  notifications
+WHERE timestamp BETWEEN "${from.toISOString()}" AND "${to.toISOString()}"
+`.trim();
+};
+
 export const SqlStatements = {
     Table,
     Data,
     Embedded,
-    UnionAll
+    UnionAll,
+    Notifications
 };

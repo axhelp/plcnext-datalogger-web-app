@@ -3,7 +3,7 @@ import sqlite3 from "sqlite3";
 import { open } from "sqlite";
 import { dataQuery } from "../database/queries";
 import { parseIntValue, parseDate, addMinutes } from "../util/parsers";
-import {Config} from "../config";
+import { Config } from "../config";
 
 
 export const dataLoggerRouter = async (req: Request, res: Response) => {
@@ -20,7 +20,7 @@ export const dataLoggerRouter = async (req: Request, res: Response) => {
 
     try {
         const db = await open({
-            filename: Config.db.path,
+            filename: Config.db.dataLoggerDbPath,
             mode: sqlite3.OPEN_READONLY,
             driver: sqlite3.cached.Database
         });
