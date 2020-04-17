@@ -33,9 +33,6 @@ export const dataLoggerRouter = async (req: Request, res: Response) => {
 
         const items = await dataQuery(db, queryOptions);
 
-        // Do not lock db
-        await db.close();
-
         return res.json({items: items});
     }
 
