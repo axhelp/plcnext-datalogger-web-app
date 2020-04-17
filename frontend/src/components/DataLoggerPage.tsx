@@ -4,6 +4,8 @@ import Label from './Label';
 import {useTextInput} from '../hooks/use-text-input';
 import {Trend} from './Chart';
 import {TimeSeries} from "pondjs";
+import {useInterval} from "../hooks/use-interval";
+import {addMinutes} from "../helpers/utils";
 
 interface DataLoggerPageProps {
     dataLoggerUrl: string
@@ -22,14 +24,13 @@ const buildPoints = (dataItems: any[], columnName: string) => {
 const DataLoggerPage = (props: DataLoggerPageProps) => {
     const {dataLoggerUrl} = props;
     const {value: variableNameValue, bind: bindVariableNameValue} = useTextInput('Arp.Plc.Eclr/I_2_IN01');
-    const {value: fromValue, bind: bindFromValue} = useTextInput('2020-04-17T13:30:00');
-    const {value: toValue, bind: bindToValue} = useTextInput('2020-04-17T13:31:00');
+    const {value: fromValue, bind: bindFromValue, setValue: setFromValue} = useTextInput('2020-04-17T13:30:00');
+    const {value: toValue, bind: bindToValue, setValue: setToValue} = useTextInput('2020-04-17T13:31:00');
     const [timeSeries, setTimeSeries] = useState();
+    const [isLiveUpdate, setLiveUpdate] = useState(false);
 
-    const handleSubmit = (evt: React.FormEvent) => {
-        evt.preventDefault();
-
-        const urlWithQuery = `${dataLoggerUrl}?variableName=${variableNameValue}&from=${fromValue}&to=${toValue}`;
+    const fetchDataLogger = (variableName: string, from: string, to: string) => {
+        const urlWithQuery = `${dataLoggerUrl}?variableName=${variableName}&from=${from}&to=${to}`;
         fetch(urlWithQuery)
             .then((res) => {
                 return res.json()
@@ -57,6 +58,24 @@ const DataLoggerPage = (props: DataLoggerPageProps) => {
             })
     };
 
+    useInterval(() => {
+        if (isLiveUpdate) {
+            const newToValue = (new Date).toISOString();
+            const newFromValue = (addMinutes(new Date, -10)).toISOString();
+
+            setToValue(newToValue);
+            setFromValue(newFromValue);
+
+            fetchDataLogger(variableNameValue, newFromValue, newToValue)
+        }
+
+    }, 2000);
+
+    const handleSubmit = (evt: React.FormEvent) => {
+        evt.preventDefault();
+        fetchDataLogger(variableNameValue, fromValue, toValue);
+    };
+
     return (
         <div className="cf pxc-grid-4">
             <h1>
@@ -78,6 +97,7 @@ const DataLoggerPage = (props: DataLoggerPageProps) => {
                                 placeholder={``}
                                 maxLength={63}
                                 name={`from`}
+                                disabled={isLiveUpdate}
                                 {...bindFromValue}
                             />
                             <TextInput
@@ -85,8 +105,23 @@ const DataLoggerPage = (props: DataLoggerPageProps) => {
                                 placeholder={``}
                                 maxLength={63}
                                 name={`to`}
+                                disabled={isLiveUpdate}
                                 {...bindToValue}
                             />
+                            <div className="form_group">
+                                <Label
+                                    label={`Live update`}
+                                />
+                                <input
+                                    type="checkbox"
+                                    name="live_update"
+                                    value="true"
+                                    checked={isLiveUpdate}
+                                    onChange={(e: React.FormEvent<HTMLInputElement>) => {
+                                        setLiveUpdate(e.currentTarget.checked)
+                                    }}
+                                />
+                            </div>
                             <div className="form_group">
                                 <Label
                                     label={`Query`}
