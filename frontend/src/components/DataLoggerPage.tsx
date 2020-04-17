@@ -29,7 +29,7 @@ const DataLoggerPage = (props: DataLoggerPageProps) => {
     const handleSubmit = (evt: React.FormEvent) => {
         evt.preventDefault();
 
-        const urlWithQuery = `${dataLoggerUrl}?variableName=${variableNameValue}&from="${fromValue}"&to="${toValue}"`;
+        const urlWithQuery = `${dataLoggerUrl}?variableName=${variableNameValue}&from=${fromValue}&to=${toValue}`;
         fetch(urlWithQuery)
             .then((res) => {
                 return res.json()
@@ -43,9 +43,11 @@ const DataLoggerPage = (props: DataLoggerPageProps) => {
                         columns: ["time", "var1"],
                         points: points
                     });
+                    //@ts-ignore
                     setTimeSeries(newTimeSeries)
                 }
                 else {
+                    //@ts-ignore
                     setTimeSeries(null)
                 }
 
