@@ -6,7 +6,7 @@ import { parseIntValue, parseDate, addMinutes } from "../util/parsers";
 import {Config} from "../config";
 
 
-export const index = async (req: Request, res: Response) => {
+export const dataLoggerRouter = async (req: Request, res: Response) => {
     const {variableName, from, to, limit} = req.query;
 
     const limitInt = parseIntValue(`${limit}`, 100);

@@ -1,25 +1,31 @@
-import dotenv from 'dotenv';
-import path from 'path';
+import dotenv from "dotenv";
+import path from "path";
 
-const dirnameTsSrc = __dirname.replace(`/dist`, ``);
+const dirnameTsSrc = __dirname.replace("/dist", "");
 dotenv.config({
-    path: path.resolve(dirnameTsSrc, '.env'),
+    path: path.resolve(dirnameTsSrc, ".env"),
 });
 
-export interface IApplicationConfig {
+export interface ApplicationConfig {
     db: {
-        path: string
-    }
+        path: string;
+    };
     webServer: {
-        port: number
-    }
+        port: number;
+    };
+    env: {
+        NODE_ENV: string;
+    };
 }
 
-export const Config : IApplicationConfig = {
+export const Config: ApplicationConfig = {
     db: {
         path: process.env.DB_FILE_PATH,
     },
     webServer: {
         port: parseInt(process.env.PORT) || 3000
+    },
+    env: {
+        NODE_ENV: process.env.NODE_ENV || "production"
     }
 };

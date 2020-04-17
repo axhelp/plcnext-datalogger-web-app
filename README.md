@@ -71,3 +71,17 @@ balena-engine run -d \
     axhelp/plcnext-datalogger-web-app:latest
 ```
 
+
+- Build and run container on dev machine
+```
+docker build --tag plcnext-datalogger-web-app:dev .
+
+docker run --rm \
+   --name=plcnext-datalogger-web-app \
+   -p 3000:3000 \
+   --volume /Users/konopkov/dev/axhelp/plcnext-datalogger-web-app/:/usr/app/database/:ro \
+   --env DB_FILE_PATH=/usr/app/database/database-web-app.db \
+   --env NODE_ENV=development \
+   plcnext-datalogger-web-app:dev
+```
+
