@@ -20,7 +20,7 @@ user@unix-machine:~# scp config/Services/DataLogger/data-logger.config admin@192
 
 ### Загрузка проекта PLCnext Engineer
 - Откройте и [загрузите](https://github.com/savushkin-r-d/PLCnext-howto/tree/master/HowTo%20quick%20start%20AXC%20F%202152%20and%20PLCnext%20Engineer)
-в контролллер [файл проекта PLCnext Engineer](/PLCnext Engineer/src/)
+в контролллер [файл проекта PLCnext Engineer](/PLCnext%20Engineer/src)
 
 ### Установка Balena Engine
 - Следуйте [инструкции](https://github.com/PLCnext/Docker_GettingStarted/blob/master/getting-started/Part-01/README.md)
@@ -71,7 +71,7 @@ table ip balena {
 balena-engine run -d \
     --name=plcnext-datalogger-web-app \
     --restart=always \
-    --expose 3000:3000 \
+    -p 3000:3000 \
     --volume /opt/plcnext/projects/plcnext-datalogger-web-app/:/usr/app/database/:ro \
     --volume /opt/plcnext/logs/:/usr/app/logs/:ro \
     --env DL_DB_FILE_PATH=/usr/app/database/database-web-app.db \
@@ -160,7 +160,7 @@ user@unix-machine:~# scp config/Services/DataLogger/data-logger.config admin@192
 
 ### Download PLCnext Engineer project
 - Open and [download](https://github.com/savushkin-r-d/PLCnext-howto/tree/master/HowTo%20quick%20start%20AXC%20F%202152%20and%20PLCnext%20Engineer)
-into PLC [PLCnext Engineer project](/PLCnext Engineer/src/)
+into PLC [PLCnext Engineer project](/PLCnext%20Engineer/src)
 
 ### Balena Engine installation
 - Follow [instruction](https://github.com/PLCnext/Docker_GettingStarted/blob/master/getting-started/Part-01/README.md)
@@ -208,7 +208,7 @@ table ip balena {
 balena-engine run -d \
     --name=plcnext-datalogger-web-app \
     --restart=always \
-    --expose 3000:3000 \
+    -p 3000:3000 \
     --volume /opt/plcnext/projects/plcnext-datalogger-web-app/:/usr/app/database/:ro \
     --volume /opt/plcnext/logs/:/usr/app/logs/:ro \
     --env DL_DB_FILE_PATH=/usr/app/database/database-web-app.db \
@@ -231,7 +231,6 @@ configuration file [data-logger.config](/config/Services/DataLogger/data-logger.
 ### Knowing issues
 - Broken styles. Application is using styles files [pxc_device.css](https://192.168.1.10/wbm/pxc_device.css) and
 [pxc_styles.css](https://192.168.1.10/wbm/pxc_styles.css) from embedded web-server, which are accessible only by HTTPS.
-Разрешите браузеру использовать самоподписанный сертификат устройства.
 Accept self-signed certificate with your browser by visiting main page [https://192.168.1.10](https://192.168.1.10)
 
 ### Application update
