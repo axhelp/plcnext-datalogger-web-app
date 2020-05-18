@@ -7,7 +7,8 @@
 	<Tasks>
 		<Task id="aaca64e1-c03a-47aa-a0ee-5db62ab33ed6" name="Cyclic100" taskType="CyclicTask" priority="0" intervalTime="100000000" watchdogTime="100000000" executionTimeThreshold="0" coreAffinity="0" stackSize="0" taskBuffer="None" comment="" esmId="2c1c8f89-2da1-4e5b-8992-fa901ae627c1" readonly="False">
 			<ProgramInstances>
-				<ProgramInstance id="5a4da879-8343-4f8a-88da-ecf9afe03785" name="MainInstance" programType="Main" componentId="00000000-0000-0000-0000-000000000000" libraryName="Arp.Plc.Eclr" componentName="Arp.Plc.Eclr" componentType="EclrComponent" comment="" readonly="False" groupName="" />
+				<ProgramInstance id="f99491b7-d650-4f5b-884d-7ca0ff16697b" name="Simulate1" programType="Simulate" componentId="00000000-0000-0000-0000-000000000000" libraryName="Arp.Plc.Eclr" componentName="Arp.Plc.Eclr" componentType="EclrComponent" comment="" readonly="False" groupName="" />
+				<ProgramInstance id="60799d4d-342b-4f4c-a1fc-50dddbafa563" name="Alarms1" programType="Alarms" componentId="00000000-0000-0000-0000-000000000000" libraryName="Arp.Plc.Eclr" componentName="Arp.Plc.Eclr" componentType="EclrComponent" comment="" readonly="False" groupName="" />
 			</ProgramInstances>
 		</Task>
 	</Tasks>

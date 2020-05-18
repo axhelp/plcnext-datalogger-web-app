@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserMetadataDoc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+   <UserMetadata Id="7602e465-eaa0-496e-b52e-e5c17e183a24" xmlns="">
+      <dcec>
+         <dc:identifier></dc:identifier>
+         <dc:title></dc:title>
+      </dcec>
+      <revTable />
+   </UserMetadata>
+</UserMetadataDoc>

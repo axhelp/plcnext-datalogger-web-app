@@ -60,12 +60,22 @@
     <folder name="Logical Elements">
       <file name="CRC32.crc" id="Logical Elemen~CRC32~0000.crc" />
       <file name="GeneratedDataTypes.dt" id="Logical E~GeneratedD~0000.dt" />
-      <folder name="Main.pou">
-        <file name="Description.html" id="Main.pou~Description~0000.html" />
-        <file name="Metadata.meta" id="Main.pou~Metadata~0000.meta" />
-        <file name="Variables.var" id="Main.pou~Variables~0000.var" />
-        <file name="VersionHistory.usermeta" id="Main.pou~VersionHist~0000.usermeta" />
-        <file name="Code.st" id="Main.pou~Code~0000.st" />
+      <folder name="Main.pou" />
+      <folder name="Alarms.pou">
+        <file name="Metadata.meta" id="Alarms.pou~Metadata~0000.meta" />
+        <file name="Variables.var" id="Alarms.pou~Variables~0000.var" />
+        <file name="VersionHistory.usermeta" id="Alarms.po~VersionHis~0000.usermeta" />
+        <file name="Code.st" id="Alarms.pou~Code~0000.st" />
+        <file name="Description.html" id="Alarms.po~Descriptio~0000.html" />
+      </folder>
+      <folder name="NewProgram.pou" />
+      <folder name="mulate.pou" />
+      <folder name="Simulate.pou">
+        <file name="Code.st" id="Simulate.pou~Code~0000.st" />
+        <file name="Metadata.meta" id="Simulate.po~Metadata~0000.meta" />
+        <file name="Variables.var" id="Simulate.p~Variables~0000.var" />
+        <file name="VersionHistory.usermeta" id="Simulate.~VersionHis~0000.usermeta" />
+        <file name="Description.html" id="Simulate.~Descriptio~0000.html" />
       </folder>
     </folder>
   </folder>
