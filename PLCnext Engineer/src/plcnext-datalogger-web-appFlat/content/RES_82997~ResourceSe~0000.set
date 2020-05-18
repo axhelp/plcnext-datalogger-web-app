@@ -18,7 +18,7 @@ RESOURCE PLC
         Endianness := 'LittleEndian'
     ),
     CommunicationType := 'TcpIp',
-    CommunicationParameters := 'DLL socomm.dll -ip192.168.1.11 -p41100 -to2000',
+    CommunicationParameters := 'DLL socomm.dll -ip192.168.1.10 -p41100 -to2000',
     DownloadFiles := 
     [
     ]
