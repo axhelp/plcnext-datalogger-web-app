@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HmiVariables>
+  <UserDefined>
+    <Variable Name="loginStatusCode" DataType="DWORD" InitValue="0" Id="4cded895-a4ae-46b2-8f8e-b07425ecabe1" />
+    <Variable Name="loginErrorString" DataType="STRING" InitValue="''" Id="d74189e2-75dc-46f9-9198-d5ec0004e212" />
+  </UserDefined>
+</HmiVariables>

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HmiPage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Login" BorderWidth="0">
+  <Layers>
+    <Layer>
+      <Objects>
+        <HmiObject xsi:type="HmiText" Rotation="0" ID="useridLabel" IsTabSelectable="false" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="0" Text="User" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Left" GuiStyle="Flat" TextWrapping="WrapWithOverflow">
+          <Origin>
+            <X>40</X>
+            <Y>40</Y>
+          </Origin>
+          <Location>
+            <X>40</X>
+            <Y>40</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#00FFFFFF" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>240</Width>
+            <Height>40</Height>
+          </Size>
+        </HmiObject>
+        <HmiObject xsi:type="HmiText" Rotation="0" ID="passwordLabel" IsTabSelectable="false" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="0" Text="Password" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Left" GuiStyle="Flat" TextWrapping="WrapWithOverflow">
+          <Origin>
+            <X>40</X>
+            <Y>160</Y>
+          </Origin>
+          <Location>
+            <X>40</X>
+            <Y>160</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#00FFFFFF" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>240</Width>
+            <Height>40</Height>
+          </Size>
+        </HmiObject>
+        <HmiObject xsi:type="TextInput" Rotation="0" ID="username" IsTabSelectable="true" TabOrder="1" LineColor="#FFCCD0D2" LineWidth="1" Text="" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Left" GuiStyle="Flat">
+          <Origin>
+            <X>40</X>
+            <Y>80</Y>
+          </Origin>
+          <Location>
+            <X>40</X>
+            <Y>80</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#FFFFFFFF" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>280</Width>
+            <Height>40</Height>
+          </Size>
+          <PasswordInputType>false</PasswordInputType>
+        </HmiObject>
+        <HmiObject xsi:type="Button" Rotation="0" ID="login" IsTabSelectable="true" TabOrder="3" NextId="1" LineColor="#FFCCD0D2" LineWidth="1" Text="Log In" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Center" GuiStyle="Flat" IsLatching="false" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" TextDirection="LeftToRight" Margin="0" ImageScaling="Fill">
+          <Origin>
+            <X>40</X>
+            <Y>320</Y>
+          </Origin>
+          <Location>
+            <X>40</X>
+            <Y>320</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <Action xsi:type="LogInAction" ID="A0" />
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#FFECEDED" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>120</Width>
+            <Height>40</Height>
+          </Size>
+          <FillWhenDown xsi:type="SolidFill" Color="#FF8ACCD1" />
+          <ImageArea>
+            <Width>50</Width>
+            <Height>50</Height>
+          </ImageArea>
+          <CornerRadii>
+            <Width>4</Width>
+            <Height>4</Height>
+          </CornerRadii>
+        </HmiObject>
+        <HmiObject xsi:type="Button" Rotation="0" ID="cancel" IsTabSelectable="true" TabOrder="4" NextId="1" LineColor="#FFCCD0D2" LineWidth="1" Text="Cancel" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Center" GuiStyle="Flat" IsLatching="false" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" TextDirection="LeftToRight" Margin="0" ImageScaling="Fill">
+          <Origin>
+            <X>200</X>
+            <Y>320</Y>
+          </Origin>
+          <Location>
+            <X>200</X>
+            <Y>320</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <Action xsi:type="CloseDialogAction" Gesture="Click" ID="A0" SourceType="Constant" />
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#FFECEDED" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>120</Width>
+            <Height>40</Height>
+          </Size>
+          <FillWhenDown xsi:type="SolidFill" Color="#FF8ACCD1" />
+          <ImageArea>
+            <Width>50</Width>
+            <Height>50</Height>
+          </ImageArea>
+          <CornerRadii>
+            <Width>4</Width>
+            <Height>4</Height>
+          </CornerRadii>
+        </HmiObject>
+        <HmiObject xsi:type="TextInput" Rotation="0" ID="password" IsTabSelectable="true" TabOrder="2" LineColor="#FFCCD0D2" LineWidth="1" Text="" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" HorizontalTextAlignment="Left" GuiStyle="Flat">
+          <Origin>
+            <X>40</X>
+            <Y>200</Y>
+          </Origin>
+          <Location>
+            <X>40</X>
+            <Y>200</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#FFFFFFFF" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>280</Width>
+            <Height>40</Height>
+          </Size>
+          <PasswordInputType>true</PasswordInputType>
+        </HmiObject>
+        <HmiObject xsi:type="HmiText" Rotation="0" ID="Text1" IsTabSelectable="true" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="0" Text="Text" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FFFF0000" HorizontalTextAlignment="Left" GuiStyle="Flat" TextWrapping="WrapWithOverflow">
+          <Origin>
+            <X>39.5</X>
+            <Y>256</Y>
+          </Origin>
+          <Location>
+            <X>39.5</X>
+            <Y>256</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <Dynamic xsi:type="TextDynamic" TargetProperty="Text">
+            <VariableInstance>
+              <PageVariableId>d74189e2-75dc-46f9-9198-d5ec0004e212</PageVariableId>
+            </VariableInstance>
+            <Expression xsi:type="SimpleSTExpression">
+              <ExpressionLine>loginErrorString</ExpressionLine>
+            </Expression>
+          </Dynamic>
+          <Dynamic xsi:type="VisibilityDynamic" ChangeWhen="True">
+            <Expression xsi:type="SimpleSTExpression">
+              <ExpressionLine>loginStatusCode = 0</ExpressionLine>
+            </Expression>
+          </Dynamic>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#00FFFFFF" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>280</Width>
+            <Height>40</Height>
+          </Size>
+        </HmiObject>
+      </Objects>
+    </Layer>
+  </Layers>
+  <Size>
+    <Width>360</Width>
+    <Height>400</Height>
+  </Size>
+  <MarginColorString>#FF000000</MarginColorString>
+  <AvailableSecurityScope>Always</AvailableSecurityScope>
+  <AvailableSecurityScopeOperator>Equal</AvailableSecurityScopeOperator>
+  <AvailableSecurityScopeLevel>0</AvailableSecurityScopeLevel>
+  <Fill xsi:type="SolidFill" Color="#FFFFFFFF" />
+</HmiPage>

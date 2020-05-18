@@ -34,7 +34,18 @@
             <file name="Navigation.hminav" id="Applicati~Navigation~0000.hminav" />
             <file name="Profiles.hmiprofiles" id="Application~Profiles~0000.hmiprofiles" />
             <file name="Variables.hmivar" id="Applicatio~Variables~0000.hmivar" />
+            <folder name="Page.hmi" />
+            <folder name="Login.hmi">
+              <file name="Variables.hmivar" id="Login.hmi~Variables~0000.hmivar" />
+              <file name="Definition.hmipagedef" id="Login.hmi~Definition~0000.hmipagedef" />
+            </folder>
+            <folder name="Start.hmi">
+              <file name="Definition.hmipagedef" id="Start.hmi~Definition~0000.hmipagedef" />
+              <file name="Parameters.hmiparams" id="Start.hmi~Parameters~0000.hmiparams" />
+              <file name="Variables.hmivar" id="Start.hmi~Variables~0000.hmivar" />
+            </folder>
           </folder>
+          <file name="HmiConfiguration.xml" id="HMI_Serve~HmiConfigu~0000.xml" />
         </folder>
         <folder name="IB_Master">
           <file name="Arp.Io.Ib.ControllerComponent.compmeta" id="IB_Master~Arp.Io.Ib.~0000.compmeta" />

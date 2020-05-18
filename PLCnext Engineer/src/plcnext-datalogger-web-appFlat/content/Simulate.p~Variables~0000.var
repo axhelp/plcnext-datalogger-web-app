@@ -3,9 +3,9 @@
 { CustomGroupDefinition('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24', 'Default') }
 
 VAR
-    xSimulatedDigitalInputValue : BOOL { CustomGroupReference('79d96e90-783c-4ad8-99c6-83d2654ab30b') } {Id('0d84b1a5-562b-4832-be27-9b2c3d15f7c3')};
-    xAutoSimulateAnalogInput : BOOL { CustomGroupReference('79d96e90-783c-4ad8-99c6-83d2654ab30b') } {Id('c3fe21b1-9149-475f-8e5f-16a90a037069')};
-    iSimulatedAnalogInputValue : INT { CustomGroupReference('79d96e90-783c-4ad8-99c6-83d2654ab30b') } {Id('1216926a-6b32-484d-a3c3-bbf407e0e04c')};
+    xSimulatedDigitalInputValue : BOOL { EHMI, CustomGroupReference('79d96e90-783c-4ad8-99c6-83d2654ab30b') } {Id('0d84b1a5-562b-4832-be27-9b2c3d15f7c3')};
+    xAutoSimulateAnalogInput : BOOL { EHMI, CustomGroupReference('79d96e90-783c-4ad8-99c6-83d2654ab30b') } {Id('c3fe21b1-9149-475f-8e5f-16a90a037069')};
+    iSimulatedAnalogInputValue : INT { EHMI, CustomGroupReference('79d96e90-783c-4ad8-99c6-83d2654ab30b') } {Id('1216926a-6b32-484d-a3c3-bbf407e0e04c')};
 END_VAR
 
 VAR_EXTERNAL
