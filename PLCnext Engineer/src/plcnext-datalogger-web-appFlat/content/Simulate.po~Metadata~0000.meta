@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Metadata>
+   <ContentType>Program</ContentType>
+   <Kind>Program</Kind>
+   <Id>583774ff-c13f-415d-b495-47b9cb4b9492</Id>
+   <ItemGroup>
+      <VariableWorksheet>
+         <Id>5b7bc907-a1f5-4e36-b68c-48ad4a663c68</Id>
+      </VariableWorksheet>
+      <CodeWorksheet Include="Code.st">
+         <Id>c1228b85-ff2b-4e05-a490-3029456d50b9</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>0</ParentIndex>
+      </CodeWorksheet>
+   </ItemGroup>
+</Metadata>

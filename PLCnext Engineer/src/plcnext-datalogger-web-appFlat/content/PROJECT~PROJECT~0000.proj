@@ -10,8 +10,14 @@
       </CockpitDocument>
    </ItemGroup>
    <ItemGroup>
-      <CodeWorksheet Include="Logical Elements\Main.pou\Code.st">
+      <CodeWorksheet Include="Logical Elements\Alarms.pou\Code.st">
          <Id>14bf6d1f-0e68-4c50-875d-d3ed241a9195</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>3</ParentIndex>
+      </CodeWorksheet>
+      <CodeWorksheet Include="Logical Elements\Simulate.pou\Code.st">
+         <Id>c1228b85-ff2b-4e05-a490-3029456d50b9</Id>
          <Extension>.st</Extension>
          <Type>.st</Type>
          <ParentIndex>3</ParentIndex>
@@ -262,12 +268,24 @@
          <FolderType>Root</FolderType>
          <ParentIndex>2</ParentIndex>
       </Folder>
-      <Folder Include="Logical Elements\Main.pou">
+      <Folder Include="Logical Elements\Alarms.pou">
          <Id>111dd1e0-8977-404a-b4bf-24eeb8c05c76</Id>
          <FolderType>PouFolder</FolderType>
          <Id>111dd1e0-8977-404a-b4bf-24eeb8c05c76</Id>
          <ParentIndex>2</ParentIndex>
       </Folder>
+      <Folder Include="Logical Elements\Simulate.pou">
+         <Id>583774ff-c13f-415d-b495-47b9cb4b9492</Id>
+         <FolderType>PouFolder</FolderType>
+         <ParentIndex>3</ParentIndex>
+      </Folder>
+   </ItemGroup>
+   <ItemGroup>
+      <HmiConfig Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\HmiConfiguration.xml">
+         <Id>0d87f511-e6f8-4c68-95c2-459056beec15</Id>
+         <DisplayName>HMI Configuration</DisplayName>
+         <ParentIndex>3</ParentIndex>
+      </HmiConfig>
    </ItemGroup>
    <ItemGroup>
       <HmiNavigation Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\Navigation.hminav">
@@ -275,6 +293,46 @@
          <Visible>False</Visible>
          <ParentIndex>0</ParentIndex>
       </HmiNavigation>
+   </ItemGroup>
+   <ItemGroup>
+      <HmiPage Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\Start.hmi">
+         <Id>5009ab31-2513-4ce1-a517-22f3819694ac</Id>
+         <DisplayName>Start</DisplayName>
+         <StartPage>True</StartPage>
+         <ParentIndex>4</ParentIndex>
+      </HmiPage>
+      <HmiPage Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\Login.hmi">
+         <Id>63ccd6b1-622d-4fca-93ed-539efd39b3b0</Id>
+         <DisplayName>Login</DisplayName>
+         <StartPage>False</StartPage>
+         <ParentIndex>5</ParentIndex>
+      </HmiPage>
+   </ItemGroup>
+   <ItemGroup>
+      <HmiPageDefinition Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\Start.hmi\Definition.hmipagedef">
+         <Id>ff2de25b-9f8b-42cd-b29a-f567e7545705</Id>
+         <HmiPageId>5009ab31-2513-4ce1-a517-22f3819694ac</HmiPageId>
+         <ParentIndex>0</ParentIndex>
+      </HmiPageDefinition>
+      <HmiPageDefinition Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\Login.hmi\Definition.hmipagedef">
+         <Id>d5d0df25-0555-4270-a314-bd2c3369f784</Id>
+         <ParentIndex>0</ParentIndex>
+      </HmiPageDefinition>
+   </ItemGroup>
+   <ItemGroup>
+      <HmiParameters Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\Start.hmi\Parameters.hmiparams">
+         <Id>aae92759-f62e-48ab-b67c-1d3c463cfea2</Id>
+         <DisplayName>Parameters</DisplayName>
+         <Extension>.hmiparams</Extension>
+         <HmiPageId>5009ab31-2513-4ce1-a517-22f3819694ac</HmiPageId>
+         <ParentIndex>1</ParentIndex>
+      </HmiParameters>
+      <HmiParameters Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\Login.hmi\Parameters.hmiparams">
+         <Id>e2096e45-4fb2-4df6-8f54-aa65fd7a81a7</Id>
+         <DisplayName>Parameters</DisplayName>
+         <Extension>.hmiparams</Extension>
+         <ParentIndex>1</ParentIndex>
+      </HmiParameters>
    </ItemGroup>
    <ItemGroup>
       <HmiProfiles Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\Profiles.hmiprofiles">
@@ -288,6 +346,16 @@
          <Id>fbccdbb3-69f2-4676-ac05-28b10c1a9a3c</Id>
          <Visible>False</Visible>
          <ParentIndex>1</ParentIndex>
+      </HmiVariables>
+      <HmiVariables Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\Start.hmi\Variables.hmivar">
+         <Id>2b20d3e9-1fae-462e-a9e9-aa8926c18bcd</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </HmiVariables>
+      <HmiVariables Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\Login.hmi\Variables.hmivar">
+         <Id>baca556b-4490-473b-8718-1af20319a006</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
       </HmiVariables>
    </ItemGroup>
    <ItemGroup>
@@ -378,8 +446,13 @@
       </MetaComponent>
    </ItemGroup>
    <ItemGroup>
-      <MetadataDocument Include="Logical Elements\Main.pou\Metadata.meta">
+      <MetadataDocument Include="Logical Elements\Alarms.pou\Metadata.meta">
          <Id>f7b82640-74d8-4755-8691-16166db24300</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>0</ParentIndex>
+      </MetadataDocument>
+      <MetadataDocument Include="Logical Elements\Simulate.pou\Metadata.meta">
+         <Id>cdc075cf-2618-4075-967a-c6fed4d9e0d8</Id>
          <Extension>.meta</Extension>
          <ParentIndex>0</ParentIndex>
       </MetadataDocument>
@@ -540,8 +613,12 @@
          <Id>c79c51e8-38f3-46a1-b33f-b740487ba7c3</Id>
          <ParentIndex>5</ParentIndex>
       </UserMetadata>
-      <UserMetadata Include="Logical Elements\Main.pou\VersionHistory.usermeta">
+      <UserMetadata Include="Logical Elements\Alarms.pou\VersionHistory.usermeta">
          <Id>369f9924-d3f4-4892-aa26-8505bbde4a60</Id>
+         <ParentIndex>2</ParentIndex>
+      </UserMetadata>
+      <UserMetadata Include="Logical Elements\Simulate.pou\VersionHistory.usermeta">
+         <Id>ebb8659e-d4c0-47a4-a4a7-bf5aae4ba100</Id>
          <ParentIndex>2</ParentIndex>
       </UserMetadata>
    </ItemGroup>
@@ -552,8 +629,13 @@
          <Visible>false</Visible>
          <ParentIndex>6</ParentIndex>
       </VariableWorksheet>
-      <VariableWorksheet Include="Logical Elements\Main.pou\Variables.var">
+      <VariableWorksheet Include="Logical Elements\Alarms.pou\Variables.var">
          <Id>636d89b0-7ba0-4319-9d6a-96667a399f6d</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>1</ParentIndex>
+      </VariableWorksheet>
+      <VariableWorksheet Include="Logical Elements\Simulate.pou\Variables.var">
+         <Id>5b7bc907-a1f5-4e36-b68c-48ad4a663c68</Id>
          <Extension>.var</Extension>
          <ParentIndex>1</ParentIndex>
       </VariableWorksheet>

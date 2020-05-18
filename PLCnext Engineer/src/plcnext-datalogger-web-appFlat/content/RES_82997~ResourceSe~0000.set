@@ -18,7 +18,7 @@ RESOURCE PLC
         Endianness := 'LittleEndian'
     ),
     CommunicationType := 'TcpIp',
-    CommunicationParameters := 'DLL socomm.dll -ip192.168.1.11 -p41100 -to2000',
+    CommunicationParameters := 'DLL socomm.dll -ip192.168.1.10 -p41100 -to2000',
     DownloadFiles := 
     [
     ]
@@ -27,6 +27,10 @@ RESOURCE PLC
 
 TASK Cyclic100 (INTERVAL := T#100ms, PRIORITY := 0) { Watchdog(T#100ms), Id('aaca64e1-c03a-47aa-a0ee-5db62ab33ed6') };
 
-PROGRAM MainInstance WITH Cyclic100 : Main { Id('5a4da879-8343-4f8a-88da-ecf9afe03785') };
+PROGRAM Simulate1 WITH Cyclic100 : Simulate { Id('f99491b7-d650-4f5b-884d-7ca0ff16697b') };
+
+PROGRAM Alarms1 WITH Cyclic100 : Alarms { Id('60799d4d-342b-4f4c-a1fc-50dddbafa563') };
 
 END_RESOURCE
+E
+URCE

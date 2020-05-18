@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HmiConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" IsLocalInitialized="false" IsShowGrid="false" IsSnapToGrid="false" SnapToGridCellSize="50" SnapToGridLineColor="Fuchsia">
+  <Name>HMI Configuration</Name>
+  <RecentlyUsedColors>
+    <Color>
+      <A>255</A>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+      <ScA>1</ScA>
+      <ScR>1</ScR>
+      <ScG>1</ScG>
+      <ScB>1</ScB>
+    </Color>
+    <Color>
+      <A>0</A>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+      <ScA>0</ScA>
+      <ScR>1</ScR>
+      <ScG>1</ScG>
+      <ScB>1</ScB>
+    </Color>
+    <Color>
+      <A>255</A>
+      <R>0</R>
+      <G>0</G>
+      <B>0</B>
+      <ScA>1</ScA>
+      <ScR>0</ScR>
+      <ScG>0</ScG>
+      <ScB>0</ScB>
+    </Color>
+  </RecentlyUsedColors>
+  <RecentlyUsedGradients />
+  <ImageLocation>C:\Users\konopkov\Pictures</ImageLocation>
+  <HmiSupportLocation>C:\Users\konopkov\Documents</HmiSupportLocation>
+  <RotationRounding>15</RotationRounding>
+</HmiConfiguration>

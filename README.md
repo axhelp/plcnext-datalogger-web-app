@@ -85,7 +85,11 @@ balena-engine run -d \
 - Стандартная директория с базой данных нотификаций `/opt/plcnext/logs/`
 
 ### Web интерфейс
-- Зайдите на Web-интерфейс приложения по адресу [http://192.168.1.10:3000/](http://192.168.1.10:3000/)
+- Зайдите на eHMI start page по адресу [http://192.168.1.10/](http://192.168.1.10/). Можно задать значения симуляции для дискретного и аналогового входов, и перейти на страницу `Alarms and Notifications`. 
+
+![Datalogger](images/ehmi.png)
+
+- Или перейдите на Web-интерфейс приложения по прямому адресу [http://192.168.1.10:3000/](http://192.168.1.10:3000/)
 
 ![Datalogger](images/datalogger.png)
 
@@ -222,7 +226,11 @@ configuration file [data-logger.config](/config/Services/DataLogger/data-logger.
 - Standard directory with notifications database `/opt/plcnext/logs/`
 
 ### Web-interface
-- Visit web interface via address [http://192.168.1.10:3000/](http://192.168.1.10:3000/)
+- Visit PLC eHMI start page via address [http://192.168.1.10/](http://192.168.1.10/). There you can simulate digital and analog input values and navigate to `Alarms and Notifications` page. 
+
+![Datalogger](images/ehmi.png)
+
+- Or visit app web interface directly via address [http://192.168.1.10:3000/](http://192.168.1.10:3000/)
 
 ![Datalogger](images/datalogger.png)
 

@@ -1,0 +1,15 @@
+{ CustomGroupDefinition('79d96e90-783c-4ad8-99c6-83d2654ab30b', 'Local') }
+{ CustomGroupDefinition('97a674f1-4b54-48e0-a76c-77b8bace341e', 'Global') }
+{ CustomGroupDefinition('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24', 'Default') }
+
+VAR
+    xSimulatedDigitalInputValue : BOOL { EHMI, CustomGroupReference('79d96e90-783c-4ad8-99c6-83d2654ab30b') } {Id('0d84b1a5-562b-4832-be27-9b2c3d15f7c3')};
+    xAutoSimulateAnalogInput : BOOL { EHMI, CustomGroupReference('79d96e90-783c-4ad8-99c6-83d2654ab30b') } {Id('c3fe21b1-9149-475f-8e5f-16a90a037069')};
+    iSimulatedAnalogInputValue : INT { EHMI, CustomGroupReference('79d96e90-783c-4ad8-99c6-83d2654ab30b') } {Id('1216926a-6b32-484d-a3c3-bbf407e0e04c')};
+END_VAR
+
+VAR_EXTERNAL
+    I_1_IN00 : BOOL { CustomGroupReference('97a674f1-4b54-48e0-a76c-77b8bace341e') } {Id('198d5969-7b9f-4d38-9a91-9cc2ed66faa7')};
+    I_2_IN01 : WORD { CustomGroupReference('97a674f1-4b54-48e0-a76c-77b8bace341e') } {Id('2908cf46-f22a-40fd-a100-1887ebea6bc6')};
+    RTC : RTC_TYPE { CustomGroupReference('97a674f1-4b54-48e0-a76c-77b8bace341e') } {Id('17cab2e5-9b19-4c9a-9d47-9ae0c07d4465')};
+END_VAR

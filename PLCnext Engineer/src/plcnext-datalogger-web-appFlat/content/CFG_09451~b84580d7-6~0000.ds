@@ -341,7 +341,7 @@
     <InstVal xPath="//Layer3-4[@uID='L34_1']/[/InstanceObjList/Obj[@uID='ip203' type='IP:SecondaryDefaultGateway']" Type="Ade.Fdcml.Core.Ipv4"></InstVal>
     <InstVal xPath="//Layer3-4[@uID='L34_1']/[/InstanceObjList/Obj[@uID='ip204' type='IP:SecondarySubnetMask']" Type="Ade.Fdcml.Core.Ipv4">255.255.255.0</InstVal>
     <InstVal xPath="//Layer3-4[@uID='L34_1']/[/InstanceObjList/Obj[@uID='ip205' type='IP:SecondaryIndividualSettings']" Type="Ade.Fdcml.Core.Boolean">False</InstVal>
-    <InstVal xPath="//Layer3-4[@uID='L34_1']/InstanceObjList/Obj[@uID='ip100' type='IP:IpAddress']" Type="Ade.Fdcml.Core.Ipv4">192.168.1.11</InstVal>
+    <InstVal xPath="//Layer3-4[@uID='L34_1']/InstanceObjList/Obj[@uID='ip100' type='IP:IpAddress']" Type="Ade.Fdcml.Core.Ipv4">192.168.1.10</InstVal>
     <InstVal xPath="//Layer3-4[@uID='L34_1']/InstanceObjList/Obj[@uID='ip101' type='IP:DnsName']" Type="Ade.Fdcml.Core.StringAscii">axc-f-2152-plcnext-datalogger-web-app</InstVal>
     <InstVal xPath="//Layer3-4[@uID='L34_1']/InstanceObjList/Obj[@uID='ip102' type='IP:ExtendedDomainName']" Type="Ade.Fdcml.Core.String">[UTF-8;6178632D662D323135322D706C636E6578742D646174616C6F676765722D7765622D617070]</InstVal>
     <InstVal xPath="//Layer3-4[@uID='L34_1']/InstanceObjList/Obj[@uID='ip103' type='IP:DefaultGateway']" Type="Ade.Fdcml.Core.Ipv4">192.168.1.1</InstVal>
